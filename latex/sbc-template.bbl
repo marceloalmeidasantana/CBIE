@@ -1,0 +1,86 @@
+\begin{thebibliography}{}
+
+\bibitem[Azeredo et~al. 2012]{Azeredo:06}
+Azeredo, B. F.~T., Behar, P.~A., and Reategui, E.~B. (2012).
+\newblock Indicadores de relev{\^a}ncia para an{\'a}lise de f{\'o}runs de
+  discuss{\~a}o.
+\newblock {\em Simp{\'o}sio Brasileiro de Inform{\'a}tica na Educa{\c c}{\~a}o,
+  Rio de Janeiro}.
+
+\bibitem[Baker et~al. 2010]{baker2010data}
+Baker, R. et~al. (2010).
+\newblock Data mining for education.
+\newblock {\em International encyclopedia of education}, 7:112--118.
+
+\bibitem[Gottardo et~al. 2012]{Gottardo:09}
+Gottardo, E., Kaestner, C., and V., N.~R. (2012).
+\newblock Previs{\~a}o de desempenho de estudantes em cursos ead utilizando
+  minera{\c c}{\~a}o de dados: uma estrat{\'e}gia baseada em s{\'e}ries
+  temporais.
+\newblock {\em Simp{\'o}sio Brasileiro de Inform{\'a}tica na Educa{\c c}{\~a}o,
+  Rio de Janeiro}.
+
+\bibitem[Magalh{\~a}es et~al. 2010]{Magalhaes:2010:IDU:1999593.1999626}
+Magalh{\~a}es, E., Gomes, V., Rodrigues, A., Santos, L., and Conte, T. (2010).
+\newblock Impacto da usabilidade na educa{\c c}{\~a}o a dist{\^a}ncia: Um
+  estudo de caso no moodle ifam.
+\newblock In {\em Proceedings of the IX Symposium on Human Factors in Computing
+  Systems}, IHC '10, pages 231--236, Porto Alegre, Brazil, Brazil. Brazilian
+  Computer Society.
+
+\bibitem[Moodle 2014]{Moodle:2014}
+Moodle (2014).
+\newblock {Moodle - } modular object-oriented dynamic learning environment.
+\newblock \url{https://moodle.org/}.
+\newblock Acesso em maio 2014.
+
+\bibitem[Oeiras et~al. 2006]{Oeiras:2006:DDF:1298023.1298032}
+Oeiras, J. Y.~Y., Freire, F. M.~P., Lachi, R.~L., and da~Rocha, H.~V. (2006).
+\newblock Design de ferramentas de comunica{\c c}{\~a}o baseado em g{\^e}neros
+  de discurso.
+\newblock In {\em Proceedings of VII Brazilian Symposium on Human Factors in
+  Computing Systems}, IHC '06, pages 56--65, New York, NY, USA. ACM.
+
+\bibitem[ONODA and EBECKEN 2001]{Onoda:12}
+ONODA, M. and EBECKEN, N. F.~F. (2001).
+\newblock Implementa{\c c}{\~a}o em java de um algoritmo de {\'a}rvore de
+  decis{\~a}o acoplado a um sgbd relacional.
+\newblock {\em Simp{\'o}sio Brasileiro de Banco de Dados. XVI.}, pages 55--64.
+
+\bibitem[Pentaho 2014]{Pentaho:2014}
+Pentaho (2014).
+\newblock {Pentaho - } pentaho data integration.
+\newblock \url{http://www.pentaho.com/}.
+\newblock Acesso em junho 2014.
+
+\bibitem[Romero and Ventura 2010]{Romero5524021}
+Romero, C. and Ventura, S. (2010).
+\newblock Educational data mining: A review of the state of the art.
+\newblock {\em Systems, Man, and Cybernetics, Part C: Applications and Reviews,
+  IEEE Transactions on}, 40(6):601--618.
+
+\bibitem[Romero et~al. 2008]{journals/ce/RomeroVG08}
+Romero, C., Ventura, S., and Garc{\'i}a, E. (2008).
+\newblock Data mining in course management systems: Moodle case study and
+  tutorial.
+\newblock {\em Computers \& Education}, 51(1):368--384.
+
+\bibitem[SHIBA 2005]{Shiba:13}
+SHIBA, M.~H. (2005).
+\newblock Classifica{\c c}{\~a} de imagens de sensoriamento remoto pela
+  aprendizagem por {\'a}rvore de decis{\~a}o: Uma avalia{\c c}{\~a}o de
+  desempenho.
+\newblock {\em Anais XII Simp{\'o}sio Brasileiro Remoto}, pages 16--21.
+
+\bibitem[Weka 2014]{Weka:2014}
+Weka (2014).
+\newblock {Weka - } the university of waikato.
+\newblock \url{http://www.cs.waikato.ac.nz/ml/weka/}.
+\newblock Acesso em junho 2014.
+
+\bibitem[Witten et~al. 2011]{Witten:2011:DMP:1972514}
+Witten, I.~H., Frank, E., and Hall, M.~A. (2011).
+\newblock {\em Data Mining: Practical Machine Learning Tools and Techniques}.
+\newblock Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 3rd edition.
+
+\end{thebibliography}
