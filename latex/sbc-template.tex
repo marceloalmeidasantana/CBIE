@@ -10,14 +10,14 @@
      
 \sloppy
 
-\title{Um estudo explorat√≥rio sobre o uso das ferramentas educacionais no Ambiente Virtual de Aprendizagem Moodle}
+\title{Um estudo exploratÛrio sobre o uso das ferramentas educacionais no Ambiente Virtual de Aprendizagem Moodle}
 
 \author{Marcelo A. Santana\inst{1}, Baldoino S. Neto\inst{1}, Evandro B. Costa\inst{1} }
 
 
-\address{Instituto de Computa√ß√£o -- Universidade Federal de Alagoas
+\address{Instituto de ComputaÁ„o -- Universidade Federal de Alagoas
   (UFAL)\\
-  Macei√≥-- AL -- Brasil
+  MaceiÛ-- AL -- Brasil
 }
 
 \begin{document} 
@@ -29,62 +29,87 @@
 \end{abstract}
      
 \begin{resumo} 
-A Educa√ß√£o a dist√¢ncia vem sendo cada dia mais utilizada pelas institui√ß√µes de ensino, tanto para apoio aos cursos presenciais como para cursos √† dist√¢ncia. Nesse cen√°rio, uma ferramenta muito importante √© o AVA. Este estudo tem como objetivo principal avaliar o uso dos recursos e ferramentas dispon√≠vel no AVA Moodle. Para realiza√ß√£o deste trabalho foram utilizadas t√©cnicas de minera√ß√£o de dados e aplicado um question√°rio aos tutores online.Ap√≥s an√°lise dos experimentos realizados, os resultados apontam que muitas das ferramentas dispon√≠veis est√£o sendo subutilizadas pelos professores, tutores e estudantes.
+%[comment] Precisa motivar melhor a necessidade do estudo
+%[comment] Roteiro:
+%educaÁ„o a distancia - cursos presenciais ou a dist‚ncia
+%Discutir que varias ferramentas fornecem suporte a ED
+%Motivar o estudo a partir da necessidade de verificar a eficacia destas ferramentas
+%Descrever o estudo (objetivo do trabalho)
+%resultados
+A EducaÁ„o a dist‚ncia vem sendo cada dia mais utilizada pelas instituiÁıes de ensino, tanto para apoio aos cursos presenciais como para cursos ‡ dist‚ncia. Nesse cen·rio, uma ferramenta muito importante È o AVA. Este estudo tem como objetivo principal avaliar o uso dos recursos e ferramentas disponÌvel no AVA Moodle. Para realizaÁ„o deste trabalho foram utilizadas tÈcnicas de mineraÁ„o de dados e aplicado um question·rio aos tutores online.ApÛs an·lise dos experimentos realizados, os resultados apontam que muitas das ferramentas disponÌveis est„o sendo subutilizadas pelos professores, tutores e estudantes.
 \end{resumo}
 
 
-\section{Introdu√ß√£o}
+\section{IntroduÁ„o}
 
-A educa√ß√£o a dist√¢ncia est√° crescendo rapidamente em todo o mundo. Um dos principais m√©todos de ensino √† dist√¢ncia desenvolvido √© o que usa a internet como meio de comunica√ß√£o. Para isso, precisa-se de um Ambiente Virtual de Aprendizagem (AVA) \cite{Magalhaes:2010:IDU:1999593.1999626}. Que pode oferecer uma grande variedade de canais e espa√ßos de trabalho para facilitar o compartilhamento de informa√ß√£o e comunica√ß√£o entre os participantes de um curso. Eles permitem que os educadores distribuam informa√ß√µes para os alunos, produzam material de conte√∫do, prepararem trabalhos, testes, se envolvam em discuss√µes, gerenciem classes √† dist√¢ncia e permitem a aprendizagem colaborativa com f√≥runs, chats, √°reas de armazenamento de arquivos, servi√ßos de not√≠cias, etc \cite{journals/ce/RomeroVG08}. Hoje em dia, um dos AVAs mais utilizado no mundo √© o Moodle (objeto modular orientada ambiente de aprendizagem do desenvolvimento), que √© uma plataforma de aprendizagem projetada para fornecer aos educadores, administradores e alunos um sistema robusto, seguro e integrado para criar ambientes de aprendizagem personalizados \cite{Moodle:2014}.
 
-Existem v√°rios tipos de atividades que os professores podem colocar em pr√°tica em cursos a dist√¢ncia. No entanto, a viabilidade dessas atividades ainda est√° ligada a ferramentas ``tradicionais'' e pouca aten√ß√£o √© dada √† discuss√£o se eles s√£o apropriados para a tarefa e, se n√£o, oque poderia ser melhorado \cite{Oeiras:2006:DDF:1298023.1298032}. Ser√° que realmente todos esses recursos est√£o sendo utilizados? Ser√° que os professores est√£o usando esses recursos de forma correta? Quais as ferramentas mais utilizadas? Quais ferramentas de fato s√£o uteis para o processo de ensino e aprendizagem dos estutantes?
 
-Este estudo tenta responder algumas dessas perguntas, a forma de responder essas perguntas foi utilizando dois m√©todos. O primeiro foi aplicar um question√°rio aos tutores para identificar quais ferramentas eles mais usam e quais dificuldades encontradas por eles ao usar essas ferramentas. O segundo m√©todo foi usar uma caracter√≠stica do moodle que √© a de manter registros detalhados de todas as atividades que os alunos realizam, gerando grandes quantidades de dados. Toda esta informa√ß√£o gerada fornece uma ``mina de ouro'' de dados educacionais que podem ser usados para analisar a viabilidade dos recursos disponibilizados. E para analisar essas grande quantidade de dados foi utilizada t√©cnicas de minera√ß√£o de dados.  
+A educaÁ„o a dist‚ncia est· crescendo rapidamente em todo o mundo. Um dos principais mÈtodos de ensino ‡ dist‚ncia desenvolvido È o que usa a internet como meio de comunicaÁ„o. Para isso, precisa-se de um Ambiente Virtual de Aprendizagem (AVA) \cite{Magalhaes:2010:IDU:1999593.1999626}. Que pode oferecer uma grande variedade de canais e espaÁos de trabalho para facilitar o compartilhamento de informaÁ„o e comunicaÁ„o entre os participantes de um curso. Um AVA permite que os educadores distribuam informaÁıes para os alunos, produzam material de conte˙do, prepararem trabalhos, testes, se envolvam em discussıes, gerenciem classes ‡ dist‚ncia e permitem a aprendizagem colaborativa com fÛruns, chats, ·reas de armazenamento de arquivos, serviÁos de notÌcias, etc \cite{journals/ce/RomeroVG08}. Hoje em dia, um dos AVAs mais utilizado no mundo È o Moodle (objeto modular orientada ambiente de aprendizagem do desenvolvimento)
+%[comment] Voce deve colocar alguma referencia que comprove que ele È um dos mais utilizados no mundo
+, que È uma plataforma de aprendizagem projetada para fornecer aos educadores, administradores e alunos um sistema robusto, seguro e integrado para criar ambientes de aprendizagem personalizados \cite{Moodle:2014}.
 
-Um dos principais desafios em trabalhar com grandes quantidades de dados √© ser capaz de extrair o conhecimento que est√° impl√≠cito nas bases de dados e os tornarem √∫teis para as pessoas envolvidas. T√©cnicas de minera√ß√£o de dados podem ser aplicadas para analisar um grande volume de dados gerados em AVAs. Este procedimento √© chamado EDM (Educational Data Mining). EDM est√° preocupado com o desenvolvimento de m√©todos para explorar os dados em ambientes educacionais e, atrav√©s destes m√©todos, entender melhor os alunos e os contextos em que eles aprendem \cite{baker2010data}.
+Existem v·rios tipos de atividades que os professores podem colocar em pr·tica em cursos a dist‚ncia. No entanto, a viabilidade dessas atividades ainda est· ligada a ferramentas ``tradicionais'' e pouca atenÁ„o È dada ‡ discuss„o se eles s„o apropriados para a tarefa e, se n„o, oque poderia ser melhorado \cite{Oeiras:2006:DDF:1298023.1298032}. Ser· que realmente todos esses recursos est„o sendo utilizados? Ser· que os professores est„o usando esses recursos de forma correta? Quais as ferramentas mais utilizadas? Quais ferramentas de fato s„o uteis para o processo de ensino e aprendizagem dos estutantes?
 
-Para realiza√ß√£o do estudo, foi nescess√°rio auxilio de uma ferramenta para extra√ß√£o, transforma√ß√£o e carga de dados e outra para aplicar os algoritmos de minera√ß√£o de dados. As ferramentas escolhidas foram Pentaho Data Integration e Weka ambos os softwares s√£o livre.
+Este estudo tenta responder algumas dessas perguntas, a forma de responder essas perguntas foi utilizando dois mÈtodos. O primeiro foi aplicar um question·rio aos tutores para identificar quais ferramentas eles mais usam e quais dificuldades encontradas por eles ao usar essas ferramentas. O segundo mÈtodo foi usar uma caracterÌstica do moodle que È a de manter registros detalhados de todas as atividades que os alunos realizam, gerando grandes quantidades de dados. Toda esta informaÁ„o gerada fornece uma ``mina de ouro'' de dados educacionais que podem ser usados para analisar a viabilidade dos recursos disponibilizados. E para analisar essas grande quantidade de dados foi utilizada tÈcnicas de mineraÁ„o de dados.  
+%[comment] Resta descrever pq foi preciso realizar estes dois metodos
+
+
+%[comment] Voce nao falou sobre o desempenho do estudante, voce deve deixar clara a relacao: mineracao dos dados x questionario x desempenho do estudante
+
+Um dos principais desafios em trabalhar com grandes quantidades de dados È ser capaz de extrair o conhecimento que est· implÌcito nas bases de dados e os tornarem ˙teis para as pessoas envolvidas. TÈcnicas de mineraÁ„o de dados podem ser aplicadas para analisar um grande volume de dados gerados em AVAs. Este procedimento È chamado EDM (Educational Data Mining). EDM est· preocupado com o desenvolvimento de mÈtodos para explorar os dados em ambientes educacionais e, atravÈs destes mÈtodos, entender melhor os alunos e os contextos em que eles aprendem \cite{baker2010data}.
+
+
+Para realizaÁ„o do estudo, foi nescess·rio auxilio de uma ferramenta para extraÁ„o, transformaÁ„o e carga de dados e outra para aplicar os algoritmos de mineraÁ„o de dados. As ferramentas escolhidas foram Pentaho Data Integration e Weka ambos os softwares s„o livre.
+
+%[comment] Colocar referencia das ferramentas
+
 
 \section{Metodologia}
 
-Objetivando entender se ferramentas e recursos presentes dentro do ambiente virtual de aprendizagem Moodle realmente est√£o sendo utilizadas e se influenciam no desempenho dos estudantes, foi realizado um estudo explorat√≥rio utilizando t√©cnicas de EDM e aplicado um question√°rio para os tutores online para identificar a rela√ß√£o entre as ferramentas utilizadas e o desempenho dos estudantes. 
+Objetivando entender se ferramentas e recursos presentes dentro do ambiente virtual de aprendizagem Moodle realmente est„o sendo utilizadas e se influenciam no desempenho dos estudantes, foi realizado um estudo exploratÛrio utilizando tÈcnicas de EDM e aplicado um question·rio para os tutores online para identificar a relaÁ„o entre as ferramentas utilizadas e o desempenho dos estudantes. 
 
-A plataforma Moodle permite √† transmiss√£o e organiza√ß√£o dos conte√∫dos com auxilio dos seus recursos e ferramentas, facilitando a comunica√ß√£o s√≠ncrona e ass√≠ncrona, esses recursos est√£o divididos em dois. Os est√°ticos (p√°ginas web, p√°ginas de texto e conte√∫do de pastas) e os din√¢micos (chat, di√°rio, f√≥rum gloss√°rio, wiki, livros, etc.). O estudo foi realizado sobre as ferramentas din√¢micas: Modulos, assing, blog, book, chat, choice, discussion, f√≥rum, glossary, message, quis, survey e wiki. Essas ferramentas foram escolhidas por serem ferramentas onde ocorre a maior intera√ß√£o entre o professor/tutor e os estudantes.
-Seguidos os procedimentos metodol√≥gicos foram criadas algumas etapas como segue abaixo:
+%[comment] Voce adicionou um novo fator "desempenho do estudante", este fator nao foi abordado na introducao
+
+A plataforma Moodle permite ‡ transmiss„o e organizaÁ„o dos conte˙dos com auxilio dos seus recursos e ferramentas, facilitando a comunicaÁ„o sÌncrona e assÌncrona, esses recursos est„o divididos em dois. Os est·ticos (p·ginas web, p·ginas de texto e conte˙do de pastas) e os din‚micos (chat, di·rio, fÛrum gloss·rio, wiki, livros, etc.). O estudo foi realizado sobre as ferramentas din‚micas: Modulos, assing, blog, book, chat, choice, discussion, fÛrum, glossary, message, quis, survey e wiki. Essas ferramentas foram escolhidas por serem ferramentas onde ocorre a maior interaÁ„o entre o professor/tutor e os estudantes.
+Seguidos os procedimentos metodolÛgicos foram criadas algumas etapas como segue abaixo:
 \begin{enumerate}
-\item	Pesquisa bibliogr√°fica sobre Ambientes Virtuais de Aprendizagem, Minera√ß√£o de dados e Minera√ß√£o de dados na Educa√ß√£o (EDM);
-\item Elabora√ß√£o de um question√°rio para os tutores para identificar quais ferramentas s√£o mais usadas pelos tutores e estudantes. 
-\item Sele√ß√£o e tratamentos dos dados, objetivando preparar os dados para aplica√ß√£o de t√©cnicas de EMD;
-\item Realiza√ß√£o dos experimentos.
+\item	Pesquisa bibliogr·fica sobre Ambientes Virtuais de Aprendizagem, MineraÁ„o de dados e MineraÁ„o de dados na EducaÁ„o (EDM);
+\item ElaboraÁ„o de um question·rio para os tutores para identificar quais ferramentas s„o mais usadas pelos tutores e estudantes. 
+\item SeleÁ„o e tratamentos dos dados, objetivando preparar os dados para aplicaÁ„o de tÈcnicas de EMD;
+\item RealizaÁ„o dos experimentos.
 \end{enumerate} 
-Desenvolvida essas etapas, foi poss√≠vel identificar se os tutores online est√£o muito atarefados, quais as ferramentas mais utilizadas e qual a rela√ß√£o das ferramentas com o desempenho dos estudantes. Os principais resultados e considera√ß√µes sobre as etapas acima s√£o apresentadas na se√ß√£o 6.
+Desenvolvida essas etapas, foi possÌvel identificar se os tutores online est„o muito atarefados, quais as ferramentas mais utilizadas e qual a relaÁ„o das ferramentas com o desempenho dos estudantes. Os principais resultados e consideraÁıes sobre as etapas acima s„o apresentadas na seÁ„o 6.
 
 \section{Trabalhos relacionados}
-Pesquisando os trabalhos na √°rea de Minera√ß√£o de dados na educa√ß√£o nos √∫ltimos anos, podemos destacar algumas pesquisas focando ambientes virtuais de aprendizagem. 
+%[comment] VocÍ sÛ apresentou 3 trabalhos relacionados, achei pouco. N„o precisa apresentar somente estudos que utilizam EDM
 
-Muitos esfor√ßos t√™m sido feito em rela√ß√£o √† descoberta de conhecimento em ambientes virtuais de aprendizagem, \cite{Romero5524021} em estudos anteriores t√™m fornecido algumas refer√™ncias valiosas. O trabalho deles √© uma pesquisa com a aplica√ß√£o espec√≠fica de minera√ß√£o de dados no sistema AVA, um estudo de caso e tutorial com o Moodle. O objetivo √© apresentar teoria e pr√°tica a todos os interessados nesta nova √°rea de pesquisa e, em especial para professores on-line e os administradores de e-learning. Mostrando todo o processo passo a passo para a minera√ß√£o de dados no Ambiente Virtual de Aprendizagem, bem como a forma de aplicar as principais t√©cnicas de minera√ß√£o de dados utilizados.
+Pesquisando os trabalhos na ·rea de MineraÁ„o de dados na educaÁ„o nos ˙ltimos anos, podemos destacar algumas pesquisas focando ambientes virtuais de aprendizagem. 
 
-\cite{Gottardo:09} utilizam t√©cnicas de minera√ß√£o de dados educacionais com objetivo de gerar infer√™ncias sobre o desempenho dos estudantes a partir de dados coletados em s√©ries temporais. Utilizando algoritmos de classifica√ß√£o como RandomForest e MultilayerPercectron conseguiu uma taxa de precis√£o de pr√≥xima a 75$\%$, em etapas iniciais da realiza√ß√£o do curso. 
+Muitos esforÁos tÍm sido feito em relaÁ„o ‡ descoberta de conhecimento em ambientes virtuais de aprendizagem, \cite{Romero5524021} em estudos anteriores tÍm fornecido algumas referÍncias valiosas. O trabalho deles È uma pesquisa com a aplicaÁ„o especÌfica de mineraÁ„o de dados no sistema AVA, um estudo de caso e tutorial com o Moodle. O objetivo È apresentar teoria e pr·tica a todos os interessados nesta nova ·rea de pesquisa e, em especial para professores on-line e os administradores de e-learning. Mostrando todo o processo passo a passo para a mineraÁ„o de dados no Ambiente Virtual de Aprendizagem, bem como a forma de aplicar as principais tÈcnicas de mineraÁ„o de dados utilizados.
 
-A pesquisa de \cite{Azeredo:06} faz um estudo no sentido de analisar indicadores de relev√¢ncia nas postagens dos f√≥runs de discurs√£o. Utilizando t√©cnicas de minera√ß√£o de dados, onde foi desenvolvido o software MineraF√≥rum. Os resultados apresentados pelo MineraF√≥rum foram comparados com um question√°rio aplicado com docentes, onde se concluiu que a m√©dia das an√°lises das postagens, calculada pelo MineraF√≥rum, √© semelhante √† m√©dia das avalia√ß√µes dos professores.
+\cite{Gottardo:09} utilizam tÈcnicas de mineraÁ„o de dados educacionais com objetivo de gerar inferÍncias sobre o desempenho dos estudantes a partir de dados coletados em sÈries temporais. Utilizando algoritmos de classificaÁ„o como RandomForest e MultilayerPercectron conseguiu uma taxa de precis„o de prÛxima a 75$\%$, em etapas iniciais da realizaÁ„o do curso. 
 
-Neste trabalho, em contribui√ß√£o aos que foram apresentados nesta se√ß√£o, prop√µe apresentar um estudo explorat√≥rio sobre o uso das ferramentas no AVA moodle utilizando dois m√©todos o primeiro sendo o uso de t√©cnica de minera√ß√£o de dados e a segunda um question√°rio aplicado aos tutores online, por fim fazer um comparativo dos resultados desses dois m√©todos. Vale salientar que esse estudo ir√° abortar todas as ferramentas dispon√≠veis no AVA moodle.
+%[comment] falta colocar referencia dos algoritmos
 
-\section{Sele√ß√£o e tratamento dos dados}
+A pesquisa de \cite{Azeredo:06} faz um estudo no sentido de analisar indicadores de relev‚ncia nas postagens dos fÛruns de discurs„o. Utilizando tÈcnicas de mineraÁ„o de dados, onde foi desenvolvido o software MineraFÛrum. Os resultados apresentados pelo MineraFÛrum foram comparados com um question·rio aplicado com docentes, onde se concluiu que a mÈdia das an·lises das postagens, calculada pelo MineraFÛrum, È semelhante ‡ mÈdia das avaliaÁıes dos professores.
 
-Para realiza√ß√£o desse trabalho, foi utilizado um banco de dados real do AVA Moodle, cedido pela Universidade Federal de Alagoas (UFAL), contendo dez cursos de gradua√ß√£o √† dist√¢ncia com cerca de 1800 alunos matriculados. Desde ambiente selecionou-se os quatros cursos que tinham o maior numero de estudantes matriculados.
+Neste trabalho, em contribuiÁ„o aos que foram apresentados nesta seÁ„o, propıe apresentar um estudo exploratÛrio sobre o uso das ferramentas no AVA moodle utilizando dois mÈtodos o primeiro sendo o uso de tÈcnica de mineraÁ„o de dados e a segunda um question·rio aplicado aos tutores online, por fim fazer um comparativo dos resultados desses dois mÈtodos. Vale salientar que esse estudo ir· abortar todas as ferramentas disponÌveis no AVA moodle.
 
-Seguindo o crit√©rio apresentado acima, foram selecionados os cursos de Sistema de Informa√ß√£o com 478 alunos matriculados, F√≠sica com 211 alunos, geografia com 232 e letras 179. Foi escolhido um subconjunto de atributos a fim de reduzir a dimens√£o, complexidade do banco de dados. A escolha dos atributos se deu de acordo com a import√¢ncia dos dados especificamente para o estudo das ferramentas e desempenho dos estudantes, foram descartados atributos como dados cadastrais dos estudantes, dados cadastrais dos cursos e disciplinas entre outros que n√£o iriam influenciar no estudo das ferramentas e desempenho dos estudantes.A tabela 1 apresenta os atributos selecionados.
+\section{SeleÁ„o e tratamento dos dados}
+
+Para realizaÁ„o desse trabalho, foi utilizado um banco de dados real do AVA Moodle, cedido pela Universidade Federal de Alagoas (UFAL), contendo dez cursos de graduaÁ„o ‡ dist‚ncia com cerca de 1800 alunos matriculados. Desde ambiente selecionou-se os quatros cursos que tinham o maior numero de estudantes matriculados.
+
+Seguindo o critÈrio apresentado acima, foram selecionados os cursos de Sistema de InformaÁ„o com 478 alunos matriculados, FÌsica com 211 alunos, geografia com 232 e letras 179. Foi escolhido um subconjunto de atributos a fim de reduzir a dimens„o, complexidade do banco de dados. A escolha dos atributos se deu de acordo com a import‚ncia dos dados especificamente para o estudo das ferramentas e desempenho dos estudantes, foram descartados atributos como dados cadastrais dos estudantes, dados cadastrais dos cursos e disciplinas entre outros que n„o iriam influenciar no estudo das ferramentas e desempenho dos estudantes.A tabela 1 apresenta os atributos selecionados.
 
 \begin{table}[!htpb]
  \centering
 	\caption{Atributos Selecionados}
 \begin{tabular}{|l|l|}
 \hline
-\multicolumn{1}{|c|}{Atributo} & \multicolumn{1}{c|}{Descri√ß√£o} \\ \hline
-Curso & Descri√ß√£o do Curso \\ \hline
-AcessoTotal & Numero total de acesso dos usu√°rios \\ \hline
-MediaNotas & M√©dia das notas dos estudantes por curso \\ \hline
+\multicolumn{1}{|c|}{Atributo} & \multicolumn{1}{c|}{DescriÁ„o} \\ \hline
+Curso & DescriÁ„o do Curso \\ \hline
+AcessoTotal & Numero total de acesso dos usu·rios \\ \hline
+MediaNotas & MÈdia das notas dos estudantes por curso \\ \hline
 Assign & Quantidade de arquivos enviados pelo estudante  \\ \hline
 Blog & Quantidade de acesso do estudante a ferramenta blog \\ \hline
 Book & Quantidade de acesso do estudante a ferramenta book \\ \hline
@@ -101,15 +126,17 @@ Workshop & Quantidade de acesso do estudante a ferramenta workshop \\ \hline
 \end{tabular}
 \label{t_fixas}
 \end{table}
-Alguns algoritmos de classifica√ß√£o e agrupamento somente conseguem lidar com atributos nominais n√£o conseguem lidar com atributos medidos em escala num√©rica. Para us√°-los os atributos num√©ricos deve primeiro ser ``discretizados'' \cite{Witten:2011:DMP:1972514}. Desse modo, para viabilizar a utiliza√ß√£o de alguns tipos de m√©todos e tamb√©m para facilitar a interpreta√ß√£o dos resultados os dados foram discretizados conforme os procedimentos abaixo.
+Alguns algoritmos de classificaÁ„o e agrupamento somente conseguem lidar com atributos nominais n„o conseguem lidar com atributos medidos em escala numÈrica. Para us·-los os atributos numÈricos deve primeiro ser ``discretizados'' \cite{Witten:2011:DMP:1972514}. Desse modo, para viabilizar a utilizaÁ„o de alguns tipos de mÈtodos e tambÈm para facilitar a interpretaÁ„o dos resultados os dados foram discretizados conforme os procedimentos abaixo.
 
-O primeiro atributo a ser discretizados foi o atributo ``AcessoTotal'', onde foi observado a m√©dia da quantidade total de acessos e divido em tr√™s grupos. Os valores que estavam acima da m√©dia foi atribu√≠do o r√≥tulo de ``Alto'', os que estavam pr√≥ximo da m√©dia foram rotulados com ``Medio'' e por fim os valores que estavam abaixo da m√©dia ganharam o r√≥tulo de ``Baixo''.
+%[comment] Pq os procedimento descritos abaixo foram utilizados para realizar a discretizacao? 
 
-O atributo ``MediaNota'' tamb√©m foi dividido em tr√™s grupos, A, B e C a depender da m√©dia das notas obtidas pelos estudantes. A m√©dia das notas dos estudantes ficou por volta de 68, os estudantes que tiveram notas maiores que √© m√©dia ficaram no grupo ``A'' os que obtiveram as notas iguais ou pr√≥ximas de m√©dia ficaram no grupo ``B'' e os que apresentaram notas abaixo da m√©dia ficaram no grupo ``C''. 
+O primeiro atributo a ser discretizados foi o atributo ``AcessoTotal'', onde foi observado a mÈdia da quantidade total de acessos e divido em trÍs grupos. Os valores que estavam acima da mÈdia foi atribuÌdo o rÛtulo de ``Alto'', os que estavam prÛximo da mÈdia foram rotulados com ``Medio'' e por fim os valores que estavam abaixo da mÈdia ganharam o rÛtulo de ``Baixo''.
 
-Os atributos que representam a quantidade de acesso das ferramentas foram discretizados utilizado o mesmo m√©todo anterior somente acrescentando o valor ``sem acesso'' quando a ferramenta em quest√£o n√£o tiver nenhum acesso. Vale destacar que existem diversas formas para o processo de discretiza√ß√£o. Al√©m disso, o n√∫mero de classes e o n√∫mero de inst√¢ncias em cada classe podem variar em fun√ß√£o dos objetivos e das caracter√≠sticas particulares de cada estudo. 
+O atributo ``MediaNota'' tambÈm foi dividido em trÍs grupos, A, B e C a depender da mÈdia das notas obtidas pelos estudantes. A mÈdia das notas dos estudantes ficou por volta de 68, os estudantes que tiveram notas maiores que È mÈdia ficaram no grupo ``A'' os que obtiveram as notas iguais ou prÛximas de mÈdia ficaram no grupo ``B'' e os que apresentaram notas abaixo da mÈdia ficaram no grupo ``C''. 
 
-Todo esse procedimento acima foi realizado com o aux√≠lio da ferramenta Pentaho Data Integration. Pentaho √© um software de c√≥digo aberto, desenvolvido em Java. A solu√ß√£o cobre as √†reas de Extra√ß√£o, transforma√ß√£o e carga (ETL) dos dados, relat√≥rios, OLAP e minera√ß√£o de dados \cite{Pentaho:2014}. Facilitando a cria√ß√£o de um modelo capaz de realizar os procedimentos de extra√ß√£o dos registros do banco de dados, sele√ß√£o de atributos, discretiza√ß√£o dos dados e at√© a gera√ß√£o do arquivo no formado compat√≠vel com o software de minera√ß√£o. Como mostra a figura ~\ref{fig:Pentaho}. 
+Os atributos que representam a quantidade de acesso das ferramentas foram discretizados utilizado o mesmo mÈtodo anterior somente acrescentando o valor ``sem acesso'' quando a ferramenta em quest„o n„o tiver nenhum acesso. Vale destacar que existem diversas formas para o processo de discretizaÁ„o. AlÈm disso, o n˙mero de classes e o n˙mero de inst‚ncias em cada classe podem variar em funÁ„o dos objetivos e das caracterÌsticas particulares de cada estudo. 
+
+Todo esse procedimento acima foi realizado com o auxÌlio da ferramenta Pentaho Data Integration. Pentaho È um software de cÛdigo aberto, desenvolvido em Java. A soluÁ„o cobre as ‡reas de ExtraÁ„o, transformaÁ„o e carga (ETL) dos dados, relatÛrios, OLAP e mineraÁ„o de dados \cite{Pentaho:2014}. Facilitando a criaÁ„o de um modelo capaz de realizar os procedimentos de extraÁ„o dos registros do banco de dados, seleÁ„o de atributos, discretizaÁ„o dos dados e atÈ a geraÁ„o do arquivo no formado compatÌvel com o software de mineraÁ„o. Como mostra a figura ~\ref{fig:Pentaho}. 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=.5\textwidth]{Pentaho.jpg}
@@ -117,111 +144,113 @@ Todo esse procedimento acima foi realizado com o aux√≠lio da ferramenta Pentaho 
 \label{fig:Pentaho}
 \end{figure}
 
-\section{Realiza√ß√µes dos experimentos}
+\section{RealizaÁıes dos experimentos}
 
 \subsection{Objetivo}
 
-O objetivo deste experimento foi analisar a utiliza√ß√£o das ferramentas do AVA Moodle e relacionar com o desempenho acad√™mico (m√©dia nota dos estudantes. Para realizar o experimento, foram utilizadas t√©cnicas de minera√ß√£o de dados e aplica√ß√£o de question√°rio a fim de fazer um comparativo entre os dois m√©todos. 
+O objetivo deste experimento foi analisar a utilizaÁ„o das ferramentas do AVA Moodle e relacionar com o desempenho acadÍmico (mÈdia nota dos estudantes. Para realizar o experimento, foram utilizadas tÈcnicas de mineraÁ„o de dados e aplicaÁ„o de question·rio a fim de fazer um comparativo entre os dois mÈtodos. 
 
-\subsection{Aplica√ß√£o e resultados dos algoritmos de minera√ß√£o}
+\subsection{AplicaÁ„o e resultados dos algoritmos de mineraÁ„o}
 
-Conforme o procedimento descrito na se√ß√£o 4, foi gerado o arquivo no formato ``.arff'', formato esse usado pelo software de minera√ß√£o de dados Weka, que foi desenvolvido pela Universidade Waikato, e possui uma cole√ß√£o de algoritmos de aprendizado de m√°quina para tarefas de minera√ß√£o de dados. Os algoritmos podem ser aplicados diretamente a um conjunto de dados \cite{Weka:2014}. 
+Conforme o procedimento descrito na seÁ„o 4, foi gerado o arquivo no formato ``.arff'', formato esse usado pelo software de mineraÁ„o de dados Weka, que foi desenvolvido pela Universidade Waikato, e possui uma coleÁ„o de algoritmos de aprendizado de m·quina para tarefas de mineraÁ„o de dados. Os algoritmos podem ser aplicados diretamente a um conjunto de dados \cite{Weka:2014}. 
 
-Ap√≥s gera√ß√£o do arquivo, foi poss√≠vel utilizar o WEKA para a aplica√ß√£o do algoritmo de classifica√ß√£o J48 que √© um algoritmo de √°rvore de decis√£o. As √°rvores de decis√£o s√£o modelos estat√≠sticos utilizados em problema de predi√ß√£o supervisionado, em que um conjunto de atributos √© usado para predizer o valor de um atributo de sa√≠da (resultado), sendo o mapeamento destas entradas para as sa√≠das denominadas de modelo preditivo\cite{Onoda:12}. Elas consistem em nodos que representam os atributos; de arcos, provenientes destes nodos e que recebem os valores poss√≠veis para estes atributos; e de nodos folhas, que representam as diferentes classes de um conjunto de treinamento \cite{Shiba:13}. O resultado da execu√ß√£o da minera√ß√£o de dados pode ser visualizado na figura ~\ref{fig:ResultJ48}. 
+ApÛs geraÁ„o do arquivo, foi possÌvel utilizar o WEKA para a aplicaÁ„o do algoritmo de classificaÁ„o J48 que È um algoritmo de ·rvore de decis„o. As ·rvores de decis„o s„o modelos estatÌsticos utilizados em problema de prediÁ„o supervisionado, em que um conjunto de atributos È usado para predizer o valor de um atributo de saÌda (resultado), sendo o mapeamento destas entradas para as saÌdas denominadas de modelo preditivo\cite{Onoda:12}. Elas consistem em nodos que representam os atributos; de arcos, provenientes destes nodos e que recebem os valores possÌveis para estes atributos; e de nodos folhas, que representam as diferentes classes de um conjunto de treinamento \cite{Shiba:13}. O resultado da execuÁ„o da mineraÁ„o de dados pode ser visualizado na figura ~\ref{fig:ResultJ48}. 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=.4\textwidth]{ResultJ48.jpg}
 \caption{Resultado do algoritmo J48}
 \label{fig:ResultJ48}
 \end{figure}
-A figura 2 mostra a saida do algoritmo J48, onde se interpreta que cada linha representa um n√≥ da arvore. As linhas que possui o caractere ``{|}'' s√£o filhos dos n√≥s principais, e na proxima parte da linha √© a regra. Ap√≥s a regra encontra-se o resultado, a primeira parte dos valores entre par√™nteses indica quantas inst√¢ncias no conjunto estudado s√£o corretamente classificados para este n√≥, e na segunda parte indica o n√∫mero de inst√¢ncias incorretamente classificados. 
+A figura 2 mostra a saida do algoritmo J48, onde se interpreta que cada linha representa um nÛ da arvore. As linhas que possui o caractere ``{|}'' s„o filhos dos nÛs principais, e na proxima parte da linha È a regra. ApÛs a regra encontra-se o resultado, a primeira parte dos valores entre parÍnteses indica quantas inst‚ncias no conjunto estudado s„o corretamente classificados para este nÛ, e na segunda parte indica o n˙mero de inst‚ncias incorretamente classificados. 
 
-Diante desse resultado √© possivel identificar como cada atributo se relaciona entre si, para alcan√ßar o atributo meta, que no experimento foi o atributo ``MediaNota'' que corresponde a m√©dia das notas dos estudantes discretizadas como A,B,C como mostrado na se√ß√£o 4. Na figura 2 √© possivel identificar que o curso de Geografia tem as melhores m√©dias das notas ``A'' com 115 inst√¢ncias corretamente classificadas corretamente e 41 inst√¢ncias classificadas incorretamente. O curso de F√≠sica foi classificado com tenho as m√©dias das notas ``B'', j√° os cursos de Sistemas da Informa√ß√£o e Letras suas notas est√° variando de acordo com o uso de algumas ferramentas disponiveis no moodle. A ferramenta WEKA disponibiliza um resumo de alguns dados de medi√ß√£o de erro sobre o modelo gerado, atrav√©s destas estat√≠sticas geradas √© poss√≠vel identificar a quantidade de erros encontrados no conjunto de dados analisados como mostra a figura ~\ref{fig:ResumoJ48}.
+Diante desse resultado È possivel identificar como cada atributo se relaciona entre si, para alcanÁar o atributo meta, que no experimento foi o atributo ``MediaNota'' que corresponde a mÈdia das notas dos estudantes discretizadas como A,B,C como mostrado na seÁ„o 4. Na figura 2 È possivel identificar que o curso de Geografia tem as melhores mÈdias das notas ``A'' com 115 inst‚ncias corretamente classificadas corretamente e 41 inst‚ncias classificadas incorretamente. O curso de FÌsica foi classificado com tenho as mÈdias das notas ``B'', j· os cursos de Sistemas da InformaÁ„o e Letras suas notas est· variando de acordo com o uso de algumas ferramentas disponiveis no moodle. A ferramenta WEKA disponibiliza um resumo de alguns dados de mediÁ„o de erro sobre o modelo gerado, atravÈs destas estatÌsticas geradas È possÌvel identificar a quantidade de erros encontrados no conjunto de dados analisados como mostra a figura ~\ref{fig:ResumoJ48}.
 \begin{figure}[ht]
 \centering
 \includegraphics[width=.5\textwidth]{ResumoJ48.jpg}
 \caption{Resumo do algoritmo J48}
 \label{fig:ResumoJ48}
 \end{figure}
-Dentre os cursos escolhidos, nessa etapa foi possivel identificar as ferramentas e recursos mais utilizados pelos estudantes em cada curso no AVA Moodle. Como mostra a figura ~\ref{fig:MaisUsadas}, entre todas as ferramentas disponiveis o f√≥rum e o envio e recebimento de arquivo (assign) s√£o as ferramentas e recursos mais utilizados. 
+Dentre os cursos escolhidos, nessa etapa foi possivel identificar as ferramentas e recursos mais utilizados pelos estudantes em cada curso no AVA Moodle. Como mostra a figura ~\ref{fig:MaisUsadas}, entre todas as ferramentas disponiveis o fÛrum e o envio e recebimento de arquivo (assign) s„o as ferramentas e recursos mais utilizados. 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=.5\textwidth]{MaisUsadas.jpg}
-\caption{Gr√°fico das Ferramentas mais usadas}
+\caption{Gr·fico das Ferramentas mais usadas}
 \label{fig:MaisUsadas}
 \end{figure}
 
-\subsection{Aplica√ß√£o e resultados do question√°rio}
+%[comment] … preciso apresentar e explicar os resultados com mais clareza, nao precisa apresentar o resultado direto do Weka. Nem todos irao entender. Seria possivel utilizar graficos para apresentar estas relacoes? 
 
-Em rela√ß√£o ao question√°rio, citado na se√ß√£o dois, este foi elaborado em tr√™s partes. A primeira envolvendo perguntas relacionadas √† disponibilidade de tempo dos tutores, a segunda parte teve como objetivo identificar o uso das ferramentas disponibilizadas pelo AVA Moodle e a terceira tem a finalidade de apontar o uso de outras ferramentas foram do AVA Moodle. O question√°rio foi aplicado com dezessete (17) tutores online, que atuam nos diversos cursos de gradua√ß√£o a dist√¢ncia da Universidade Federal de Alagoas (UFAL). O question√°rio apresentou dez (10) quest√µes, cada quest√£o com objetivo de entender um pouco sobre os tutores e as ferramentas que eles usam. A tabela 1 apresenta as perguntas do question√°rio. 
+\subsection{AplicaÁ„o e resultados do question·rio}
+
+Em relaÁ„o ao question·rio, citado na seÁ„o dois, este foi elaborado em trÍs partes. A primeira envolvendo perguntas relacionadas ‡ disponibilidade de tempo dos tutores, a segunda parte teve como objetivo identificar o uso das ferramentas disponibilizadas pelo AVA Moodle e a terceira tem a finalidade de apontar o uso de outras ferramentas foram do AVA Moodle. O question·rio foi aplicado com dezessete (17) tutores online, que atuam nos diversos cursos de graduaÁ„o a dist‚ncia da Universidade Federal de Alagoas (UFAL). O question·rio apresentou dez (10) questıes, cada quest„o com objetivo de entender um pouco sobre os tutores e as ferramentas que eles usam. A tabela 1 apresenta as perguntas do question·rio. 
 \begin{table}[!htpb]
  \centering
-	\caption{Perguntas do question√°rio}
+	\caption{Perguntas do question·rio}
 \begin{tabular}{|l|l|} \hline
 \multicolumn{1}{|c|}{Enunciado das perguntas} & \multicolumn{1}{c|}{Alternativas} \\ \hline
-\multirow{3}{9cm}{H√° quanto tempo voc√™ √© tutor?}  
+\multirow{3}{9cm}{H· quanto tempo vocÍ È tutor?}  
 & Primeiro semestre\\
-& De dois a tr√™s semestre\\ 
-& Mais de tr√™s semestre \\ \hline
-\multirow{4}{9cm}{De quantas disciplinas voc√™ √© tutor ao mesmo tempo?} 
-& Uma √∫nica disciplina\\
+& De dois a trÍs semestre\\ 
+& Mais de trÍs semestre \\ \hline
+\multirow{4}{9cm}{De quantas disciplinas vocÍ È tutor ao mesmo tempo?} 
+& Uma ˙nica disciplina\\
 & Duas \\
-& Tr√™s \\
-& Mais de tr√™s \\ \hline
-\multirow{4}{9cm}{Onde geralmente voc√™ atende √†s demandas da tutoria?}
+& TrÍs \\
+& Mais de trÍs \\ \hline
+\multirow{4}{9cm}{Onde geralmente vocÍ atende ‡s demandas da tutoria?}
 & Faculdade/Escola\\
 & Trabalho \\
 & Casa \\
 & Outros \\ \hline
-\multirow{4}{9cm}{O que voc√™ acha do tempo de resposta √†s d√∫vidas dos estudantes?}
+\multirow{4}{9cm}{O que vocÍ acha do tempo de resposta ‡s d˙vidas dos estudantes?}
 & Tranquilo de atender\\
-& Apertado mas realiz√°vel \\
+& Apertado mas realiz·vel \\
 & Bom \\
 & Muito curto \\ \hline
-\multirow{4}{9cm}{Considerando as necessidades dos alunos e a sua disponibilidade qual o prazo ideal para responder √†s d√∫vidas dos estudantes.}
+\multirow{4}{9cm}{Considerando as necessidades dos alunos e a sua disponibilidade qual o prazo ideal para responder ‡s d˙vidas dos estudantes.}
 & 24 Horas\\
 & 48 Horas \\
 & 72 Horas \\
 & 96 Horas \\ \hline
-\multirow{4}{9cm}{Qual a frequ√™ncia de uso das ferramentas?(Blog, Book, Chat, Choice, Discussion, Forum, Glossary, Message, Quiz, Survey, Wiki, Workshop)}
+\multirow{4}{9cm}{Qual a frequÍncia de uso das ferramentas?(Blog, Book, Chat, Choice, Discussion, Forum, Glossary, Message, Quiz, Survey, Wiki, Workshop)}
 & Nunca Usei\\
-& J√° usei \\
+& J· usei \\
 & Uso sempre em algumas disciplinas \\
 & Uso Sempre \\ \hline
-\multirow{4}{9cm}{Marque o n√≠vel de dificuldade encontrado por voc√™ em cada uma das ferramentas.(Blog, Book, Chat, Choice, Discussion, Forum, Glossary, Message, Quiz, Survey, Wiki, Workshop)}
+\multirow{4}{9cm}{Marque o nÌvel de dificuldade encontrado por vocÍ em cada uma das ferramentas.(Blog, Book, Chat, Choice, Discussion, Forum, Glossary, Message, Quiz, Survey, Wiki, Workshop)}
 & Nunca Usei\\
-& Muito dif√≠cil \\
-& Razo√°vel\\
-& Muito F√°cil \\ \hline
+& Muito difÌcil \\
+& Razo·vel\\
+& Muito F·cil \\ \hline
 \multirow{4}{9cm}{Aponte as dificuldades relatadas pelos estudantes nas ferramentas.}
 & Nunca utilizaram\\
-& Encontra dificuldade com frequ√™ncia \\
+& Encontra dificuldade com frequÍncia \\
 & Alguns encontram \\
-& N√£o encontram dificuldades \\ \hline
-\multirow{2}{9cm}{Voc√™ utiliza alguma outra ferramenta fora do ambiente moodle? Quais?}
-& Quest√£o aberta \\
+& N„o encontram dificuldades \\ \hline
+\multirow{2}{9cm}{VocÍ utiliza alguma outra ferramenta fora do ambiente moodle? Quais?}
+& Quest„o aberta \\
 &  \\ \hline
-\multirow{2}{9cm}{Na sua opini√£o o que voc√™ acha que poderia melhor no ensino a dist√¢ncia da UFAL?}
-& Quest√£o aberta\\
+\multirow{2}{9cm}{Na sua opini„o o que vocÍ acha que poderia melhor no ensino a dist‚ncia da UFAL?}
+& Quest„o aberta\\
 & \\ \hline	
 \end{tabular}
 \label{t_fixa}
 \end{table}
-A partir dos resultados do question√°rio foi poss√≠vel chegar as seguintes conclus√µes. 
+A partir dos resultados do question·rio foi possÌvel chegar as seguintes conclusıes. 
 
 \begin{itemize}
-	\item A primeira parte das perguntas foi direcionada a saber qual a disponibilidade do tutor em realizar as tarefas.  Onde foi poss√≠vel identificar que n√£o h√°     preocupa√ß√£o com rela√ß√£o ao tempo exigido para as realiza√ß√µes das tarefas direcionadas aos tutores. Levando e conta que o prazo exigido ao tutor para responder um estudante √© de 48 hrs. Como podemos verificar na figura ~\ref{fig:ResultTempo}.
+	\item A primeira parte das perguntas foi direcionada a saber qual a disponibilidade do tutor em realizar as tarefas.  Onde foi possÌvel identificar que n„o h·     preocupaÁ„o com relaÁ„o ao tempo exigido para as realizaÁıes das tarefas direcionadas aos tutores. Levando e conta que o prazo exigido ao tutor para responder um estudante È de 48 hrs. Como podemos verificar na figura ~\ref{fig:ResultTempo}.
 	\begin{figure}[ht]
 \centering
 \includegraphics[width=.5\textwidth]{ResultTempo.jpg}
-\caption{Gr√°fico relacionado ao tempo dos tutores}
+\caption{Gr·fico relacionado ao tempo dos tutores}
 \label{fig:ResultTempo}
 \end{figure}
-\item A segunda parte foi para identificar quais as ferramentas os tutores mais utilizam e se encontram alguma dificuldade no uso. De acordo com a pesquisa a ferramenta mais utilizada √© o f√≥rum com 81$\%$ das respostas afirmando que sempre usa a ferramenta. Apesar de n√£o encontrarem nenhum tipo de dificuldade no uso de outras ferramentas. Como pode-se notar nas figuras abaixo.
+\item A segunda parte foi para identificar quais as ferramentas os tutores mais utilizam e se encontram alguma dificuldade no uso. De acordo com a pesquisa a ferramenta mais utilizada È o fÛrum com 81$\%$ das respostas afirmando que sempre usa a ferramenta. Apesar de n„o encontrarem nenhum tipo de dificuldade no uso de outras ferramentas. Como pode-se notar nas figuras abaixo.
 	\begin{figure}[ht]
 \centering
 \includegraphics[width=.5\textwidth]{ResultForum.jpg}
-\caption{Uso da ferramenta f√≥rum}
+\caption{Uso da ferramenta fÛrum}
 \label{fig:ResultForum}
 \end{figure}
 	\begin{figure}[ht]
@@ -230,27 +259,27 @@ A partir dos resultados do question√°rio foi poss√≠vel chegar as seguintes concl
 \caption{Dificuldade encontrada nas ferramentas}
 \label{fig:Dificuldade}
 \end{figure}
-\item Por fim, foi poss√≠vel verificar que apesar dos v√°rios recursos e ferramentas dispon√≠vel no AVA Moodle os tutores ainda utilizam ferramentas fora do ambiente o mais citado foi o uso do o e-mail como forma de comunica√ß√£o entre os tutores e estudantes. 
+\item Por fim, foi possÌvel verificar que apesar dos v·rios recursos e ferramentas disponÌvel no AVA Moodle os tutores ainda utilizam ferramentas fora do ambiente o mais citado foi o uso do o e-mail como forma de comunicaÁ„o entre os tutores e estudantes. 
 \end{itemize}
 
 Para mais detalhes o resultado completo do pesquisa foi disponibilizado no site www.....com.br.
 \section{Resultados}
 
-Analisando os resultados obtidos na se√ß√£o 5.2 e 5.3 foi observado que tanto os resultados da aplica√ß√£o de data mining quanto os resultados do question√°rio convergem para o mesmo ponto. Ou seja, apesar do AVA moodle disponibilizar uma s√©rie de ferramentas e recursos os mesmos s√£o pouco utilizados. Dentre todas as ferramentas e recurso os mais utilizados s√£o envio e recebimento de arquivos e o f√≥rum e que atualmente essas ferramentas n√£o est√£o tento muita influ√™ncia no desempenho dos estudantes. 
+Analisando os resultados obtidos na seÁ„o 5.2 e 5.3 foi observado que tanto os resultados da aplicaÁ„o de data mining quanto os resultados do question·rio convergem para o mesmo ponto. Ou seja, apesar do AVA moodle disponibilizar uma sÈrie de ferramentas e recursos os mesmos s„o pouco utilizados. Dentre todas as ferramentas e recurso os mais utilizados s„o envio e recebimento de arquivos e o fÛrum e que atualmente essas ferramentas n„o est„o tento muita influÍncia no desempenho dos estudantes. 
 
-O principal aspecto a ser destacado da se√ß√£o 5.2, √© mostrar que o desempenho dos estudantes n√£o s√£o influenciados pelo uso das ferramentas.  Podemos notar isso facilmente observado os dados do curso de geografia e f√≠sica que mesmo tenho as melhores m√©dias de notas n√£o tem rela√ß√£o com o uso das ferramentas. Tamb√©m nessa se√ß√£o foi poss√≠vel mostrar que a maioria das ferramentas n√£o est√° sendo usada. 
+O principal aspecto a ser destacado da seÁ„o 5.2, È mostrar que o desempenho dos estudantes n„o s„o influenciados pelo uso das ferramentas.  Podemos notar isso facilmente observado os dados do curso de geografia e fÌsica que mesmo tenho as melhores mÈdias de notas n„o tem relaÁ„o com o uso das ferramentas. TambÈm nessa seÁ„o foi possÌvel mostrar que a maioria das ferramentas n„o est· sendo usada. 
 
-Na se√ß√£o 5.3, √© importante mostrar que os tutores online realmente n√£o usam ou n√£o conhecem a maiorias das ferramentas, mesmo considerando de f√°cil uso. Vale a pena destacar que a maioria dos tutores (75$\%$ dos entrevistados) tem experi√™ncia, sendo tutor a mais de 3 semestre.
+Na seÁ„o 5.3, È importante mostrar que os tutores online realmente n„o usam ou n„o conhecem a maiorias das ferramentas, mesmo considerando de f·cil uso. Vale a pena destacar que a maioria dos tutores (75$\%$ dos entrevistados) tem experiÍncia, sendo tutor a mais de 3 semestre.
 
-Os resultados apresentados nesse estudo atingiram o seu objetivo, evidenciando que a utiliza√ß√£o das ferramentas no AVA moodle est√£o sendo subutilizadas.
+Os resultados apresentados nesse estudo atingiram o seu objetivo, evidenciando que a utilizaÁ„o das ferramentas no AVA moodle est„o sendo subutilizadas.
 
-\section{Conclus√£o e trabalhos futuros} 
+\section{Conclus„o e trabalhos futuros} 
 
-A Educa√ß√£o a dist√¢ncia vem sendo cada dia mais utilizada pelas institui√ß√µes de ensino, tanto para apoio aos cursos presenciais como para cursos √† dist√¢ncia. Nesse cen√°rio, uma ferramenta muito importante √© o AVA. De acordo com a pesquisa realizada foi poss√≠vel perceber que usu√°rios do AVA Moodle quase n√£o utilizam as ferramentas disponibilizadas no ambiente.
+A EducaÁ„o a dist‚ncia vem sendo cada dia mais utilizada pelas instituiÁıes de ensino, tanto para apoio aos cursos presenciais como para cursos ‡ dist‚ncia. Nesse cen·rio, uma ferramenta muito importante È o AVA. De acordo com a pesquisa realizada foi possÌvel perceber que usu·rios do AVA Moodle quase n„o utilizam as ferramentas disponibilizadas no ambiente.
 
-Os resultados obtidos nesse estudo apontam a viabilidade de realizar infer√™ncias relativas ao uso das ferramentas dispon√≠veis no AVA Moodle. Estas infer√™ncias podem ser √∫teis para professores no sentido de ajuda-los no desenvolvimento de conte√∫do e no processo de ensino e aprendizagem, aos tutores na inten√ß√£o de auxilia-los no processo de avalia√ß√£o e participa√ß√£o dos estudantes e aos alunos tornando mais motivados e presentes nos cursos EAD.
+Os resultados obtidos nesse estudo apontam a viabilidade de realizar inferÍncias relativas ao uso das ferramentas disponÌveis no AVA Moodle. Estas inferÍncias podem ser ˙teis para professores no sentido de ajuda-los no desenvolvimento de conte˙do e no processo de ensino e aprendizagem, aos tutores na intenÁ„o de auxilia-los no processo de avaliaÁ„o e participaÁ„o dos estudantes e aos alunos tornando mais motivados e presentes nos cursos EAD.
 
-Como continuidade deste estudo, alguns pontos pendentes ainda dever√£o vir a ser considerados para a melhoria da pesquisa realizada, como os que se seguem: inserir novos algoritmos de classifica√ß√£o; aumentar a quantidade de amostras inserindo novos atributos e melhorado o processo de discretiza√ß√£o dos dados; desenvolvimento do software capaz de auxiliar aos professores e tutores na escolha das ferramentas de acordo com o perfil do curso. 
+Como continuidade deste estudo, alguns pontos pendentes ainda dever„o vir a ser considerados para a melhoria da pesquisa realizada, como os que se seguem: inserir novos algoritmos de classificaÁ„o; aumentar a quantidade de amostras inserindo novos atributos e melhorado o processo de discretizaÁ„o dos dados; desenvolvimento do software capaz de auxiliar aos professores e tutores na escolha das ferramentas de acordo com o perfil do curso. 
 
 
 \bibliographystyle{sbc}

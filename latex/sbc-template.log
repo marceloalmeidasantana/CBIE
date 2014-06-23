@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.11)  14 JUN 2014 23:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.11)  23 JUN 2014 08:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -238,1086 +238,118 @@ e
 ))
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
-
-./sbc-template.tex:25: Missing $ inserted.
-<inserted text> 
-                $
-l.25 \maketitle
-               
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-LaTeX Font Info:    Calculating math sizes for size <16> on input line 25.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 25.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
-(Font)              size <17.28> substituted on input line 25.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 25.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <16> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11.19995> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 25.
-./sbc-template.tex:25: Extra }, or forgotten $.
-\maththreesuperior ->{^3}
-                         
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing $ inserted.
-<inserted text> 
-                $
-l.25 \maketitle
-               
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (258.9464pt too wide) in paragraph at lines 25--25
- \OT1/ptm/b/n/16 rat[]A$[]\OML/cmm/m/it/17.28 riosobreousodasferramentaseducaci
-onaisnoAmbienteVirtualdeAprendizagemMoodle[]$ 
- []
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 25.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 25.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 27.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+
+[1
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 106.
+
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 106.
+ [3]
+<Pentaho.jpg, id=18, 851.18pt x 277.035pt>
+File: Pentaho.jpg Graphic file (type jpg)
+ <use Pentaho.jpg>
+Package pdftex.def Info: Pentaho.jpg used on input line 142.
+(pdftex.def)             Requested size: 213.39568pt x 69.45302pt.
+ [4]
+<ResultJ48.jpg, id=23, 302.12875pt x 529.98pt>
+File: ResultJ48.jpg Graphic file (type jpg)
+ <use ResultJ48.jpg>
+Package pdftex.def Info: ResultJ48.jpg used on input line 160.
+(pdftex.def)             Requested size: 170.71393pt x 299.45541pt.
+
+<ResumoJ48.jpg, id=24, 471.7625pt x 190.7125pt>
+File: ResumoJ48.jpg Graphic file (type jpg)
+ <use ResumoJ48.jpg>
+Package pdftex.def Info: ResumoJ48.jpg used on input line 169.
+(pdftex.def)             Requested size: 213.39568pt x 86.26796pt.
+
+<MaisUsadas.jpg, id=25, 416.55624pt x 225.84375pt>
+File: MaisUsadas.jpg Graphic file (type jpg)
+ <use MaisUsadas.jpg>
+Package pdftex.def Info: MaisUsadas.jpg used on input line 176.
+(pdftex.def)             Requested size: 213.39568pt x 115.6957pt.
+
+[5 <./Pentaho.jpg>]
+Overfull \hbox (30.2339pt too wide) in paragraph at lines 189--238
+ [][] 
+ []
+
+[6 <./ResultJ48.jpg> <./ResumoJ48.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 242.
+
+
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
-LaTeX Font Info:    Font shape `OT1/ptm/m/ui' in size <12> not available
-(Font)              Font shape `OT1/ptm/m/it' tried instead on input line 25.
-
-./sbc-template.tex:25: Missing $ inserted.
-<inserted text> 
-                $
-l.25 \maketitle
-               
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-\maththreesuperior ->{^3}
-                         
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./sbc-template.tex:25: Missing } inserted.
-<inserted text> 
-                }
-l.25 \maketitle
-               
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./sbc-template.tex:25: Extra }, or forgotten $.
-<inserted text> }
-                 
-l.25 \maketitle
-               
-(That makes 100 errors; please try again.) 
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 242.
+
+<ResultTempo.jpg, id=32, 936.49875pt x 401.5pt>
+File: ResultTempo.jpg Graphic file (type jpg)
+ <use ResultTempo.jpg>
+Package pdftex.def Info: ResultTempo.jpg used on input line 245.
+(pdftex.def)             Requested size: 213.39568pt x 91.48535pt.
+
+<ResultForum.jpg, id=33, 704.6325pt x 180.675pt>
+File: ResultForum.jpg Graphic file (type jpg)
+ <use ResultForum.jpg>
+Package pdftex.def Info: ResultForum.jpg used on input line 252.
+(pdftex.def)             Requested size: 213.39568pt x 54.71568pt.
+
+<ResultDificuldade.jpg, id=34, 678.535pt x 366.36874pt>
+File: ResultDificuldade.jpg Graphic file (type jpg)
+
+<use ResultDificuldade.jpg>
+Package pdftex.def Info: ResultDificuldade.jpg used on input line 258.
+(pdftex.def)             Requested size: 213.39568pt x 115.21669pt.
+ [7 <./MaisUsadas.jpg> <./ResultTempo.jpg> <./ResultForum.jpg>] [8] [9 <./Resul
+tDificuldade.jpg>] (./sbc-template.bbl
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 34.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [10]) [11]
+(./sbc-template.aux) ) 
 Here is how much of TeX's memory you used:
- 2587 strings out of 493315
- 37286 string characters out of 6137903
- 100623 words of memory out of 5000000
- 6011 multiletter control sequences out of 15000+600000
- 10806 words of font info for 34 fonts, out of 8000000 for 9000
+ 2762 strings out of 493315
+ 39784 string characters out of 6137903
+ 112952 words of memory out of 5000000
+ 6154 multiletter control sequences out of 15000+600000
+ 20526 words of font info for 43 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,8n,23p,238b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,28p,984b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/
+8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on sbc-template.pdf (11 pages, 435980 bytes).
+PDF statistics:
+ 84 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-./sbc-template.tex:25:  ==> Fatal error occurred, no output PDF file produced!
