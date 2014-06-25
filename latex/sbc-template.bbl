@@ -20,6 +20,12 @@ Gottardo, E., Kaestner, C., and V., N.~R. (2012).
 \newblock {\em Simp{\'o}sio Brasileiro de Inform{\'a}tica na Educa{\c c}{\~a}o,
   Rio de Janeiro}.
 
+\bibitem[Kumar et~al. 2011]{5942032}
+Kumar, S., Gankotiya, A., and Dutta, K. (2011).
+\newblock A comparative study of moodle with other e-learning systems.
+\newblock In {\em Electronics Computer Technology (ICECT), 2011 3rd
+  International Conference on}, volume~5, pages 414--418.
+
 \bibitem[Magalh{\~a}es et~al. 2010]{Magalhaes:2010:IDU:1999593.1999626}
 Magalh{\~a}es, E., Gomes, V., Rodrigues, A., Santos, L., and Conte, T. (2010).
 \newblock Impacto da usabilidade na educa{\c c}{\~a}o a dist{\^a}ncia: Um
@@ -33,6 +39,12 @@ Moodle (2014).
 \newblock {Moodle - } modular object-oriented dynamic learning environment.
 \newblock \url{https://moodle.org/}.
 \newblock Acesso em maio 2014.
+
+\bibitem[Mozzaquatro and Medina 2008]{Mozzaquatro:15}
+Mozzaquatro, M.~P. and Medina, D.~R. (2008).
+\newblock Avalia{\c c}{\~a}o do ambiente virtual de aprendizagem moodle sob
+  diferentes vis{\~o}es: aspectos a considerar.
+\newblock {\em Revista Novas Tecnologias na Educa{\c c}{\~a}o}.
 
 \bibitem[Oeiras et~al. 2006]{Oeiras:2006:DDF:1298023.1298032}
 Oeiras, J. Y.~Y., Freire, F. M.~P., Lachi, R.~L., and da~Rocha, H.~V. (2006).
@@ -67,7 +79,7 @@ Romero, C., Ventura, S., and Garc{\'i}a, E. (2008).
 
 \bibitem[SHIBA 2005]{Shiba:13}
 SHIBA, M.~H. (2005).
-\newblock Classifica{\c c}{\~a} de imagens de sensoriamento remoto pela
+\newblock Classifica{\c c}{\~a}o de imagens de sensoriamento remoto pela
   aprendizagem por {\'a}rvore de decis{\~a}o: Uma avalia{\c c}{\~a}o de
   desempenho.
 \newblock {\em Anais XII Simp{\'o}sio Brasileiro Remoto}, pages 16--21.

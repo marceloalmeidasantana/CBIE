@@ -42,33 +42,33 @@ A Educação a distância vem sendo cada dia mais utilizada pelas instituições de e
 
 \section{Introdução}
 
-
-
-A educação a distância está crescendo rapidamente em todo o mundo. Um dos principais métodos de ensino à distância desenvolvido é o que usa a internet como meio de comunicação. Para isso, precisa-se de um Ambiente Virtual de Aprendizagem (AVA) \cite{Magalhaes:2010:IDU:1999593.1999626}. Que pode oferecer uma grande variedade de canais e espaços de trabalho para facilitar o compartilhamento de informação e comunicação entre os participantes de um curso. Um AVA permite que os educadores distribuam informações para os alunos, produzam material de conteúdo, prepararem trabalhos, testes, se envolvam em discussões, gerenciem classes à distância e permitem a aprendizagem colaborativa com fóruns, chats, áreas de armazenamento de arquivos, serviços de notícias, etc \cite{journals/ce/RomeroVG08}. Hoje em dia, um dos AVAs mais utilizado no mundo é o Moodle (objeto modular orientada ambiente de aprendizagem do desenvolvimento)
-%[comment] Voce deve colocar alguma referencia que comprove que ele é um dos mais utilizados no mundo
+A educação a distância está crescendo rapidamente em todo o mundo. Um dos principais métodos de ensino à distância desenvolvido é o que usa a internet como meio de comunicação. Para isso, precisa-se de um Ambiente Virtual de Aprendizagem (AVA) \cite{Magalhaes:2010:IDU:1999593.1999626}. Que pode oferecer uma grande variedade de canais e espaços de trabalho para facilitar o compartilhamento de informação e comunicação entre os participantes de um curso. Um AVA permite que os educadores distribuam informações para os alunos, produzam material de conteúdo, prepararem trabalhos, testes, se envolvam em discussões, gerenciem classes à distância e permitem a aprendizagem colaborativa com fóruns, chats, áreas de armazenamento de arquivos, serviços de notícias, etc \cite{journals/ce/RomeroVG08}. De acordo com \cite{Magalhaes:2010:IDU:1999593.1999626}, hoje em dia, um dos AVAs mais utilizado no mundo é o Moodle (objeto modular orientada ambiente de aprendizagem do desenvolvimento)
+%[comment] Voce deve colocar alguma referencia que comprove que ele é um dos mais utilizados no mundo (OK!!!)
 , que é uma plataforma de aprendizagem projetada para fornecer aos educadores, administradores e alunos um sistema robusto, seguro e integrado para criar ambientes de aprendizagem personalizados \cite{Moodle:2014}.
 
-Existem vários tipos de atividades que os professores podem colocar em prática em cursos a distância. No entanto, a viabilidade dessas atividades ainda está ligada a ferramentas ``tradicionais'' e pouca atenção é dada à discussão se eles são apropriados para a tarefa e, se não, oque poderia ser melhorado \cite{Oeiras:2006:DDF:1298023.1298032}. Será que realmente todos esses recursos estão sendo utilizados? Será que os professores estão usando esses recursos de forma correta? Quais as ferramentas mais utilizadas? Quais ferramentas de fato são uteis para o processo de ensino e aprendizagem dos estutantes?
+Existem vários tipos de atividades que os professores podem colocar em prática em cursos a distância. No entanto, a viabilidade dessas atividades ainda está ligada a ferramentas ``tradicionais'' e pouca atenção é dada à discussão se eles são apropriados para a tarefa e, se não, oque poderia ser melhorado \cite{Oeiras:2006:DDF:1298023.1298032}. Será que realmente todos esses recursos estão sendo utilizados? Será que os professores estão usando esses recursos de forma correta? Quais as ferramentas mais utilizadas? Quais ferramentas de fato são uteis para o processo de ensino e aprendizagem dos estutantes? As ferramentas estão influenciando no desempenho dos estudantes?
 
-Este estudo tenta responder algumas dessas perguntas, a forma de responder essas perguntas foi utilizando dois métodos. O primeiro foi aplicar um questionário aos tutores para identificar quais ferramentas eles mais usam e quais dificuldades encontradas por eles ao usar essas ferramentas. O segundo método foi usar uma característica do moodle que é a de manter registros detalhados de todas as atividades que os alunos realizam, gerando grandes quantidades de dados. Toda esta informação gerada fornece uma ``mina de ouro'' de dados educacionais que podem ser usados para analisar a viabilidade dos recursos disponibilizados. E para analisar essas grande quantidade de dados foi utilizada técnicas de mineração de dados.  
-%[comment] Resta descrever pq foi preciso realizar estes dois metodos
+Este estudo tenta responder algumas dessas perguntas, a forma encontrada para responder essas perguntas foi utilizando dois métodos. A necessidade da utilização de dois métodos distintos se deu no sentido de poder fazer um coparativo entres os resultados obtidos a fim de chegar a conclusões mais sólidas. 
+
+O primeiro método usado foi aplicar um questionário aos tutores online a fim de identificar se todos os recursos disponibilizados pelo moodle estão sendo utilizados e quais dificuldades encontradas por eles em usar algumas dessas ferramentas. O segundo método foi aplicar técnicas de mineração de dados sobre o AVA moodle, com o propósito de identificar quais as ferramentas mais usadas e se essas ferramentas estão influenciando no desempenho dos estudantes. Para isso, foi usada uma importante característica do moodle que é a de manter registros detalhados de todas as atividades que os alunos realizam, gerando grandes quantidades de dados. Toda esta informação gerada fornece uma ``mina de ouro'' de dados educacionais que podem ser usados para analisar a viabilidade dos recursos disponibilizados.
+
+%[comment] Resta descrever pq foi preciso realizar estes dois metodos (OK!!!)
 
 
-%[comment] Voce nao falou sobre o desempenho do estudante, voce deve deixar clara a relacao: mineracao dos dados x questionario x desempenho do estudante
+%[comment] Voce nao falou sobre o desempenho do estudante, voce deve deixar clara a relacao: mineracao dos dados x questionario x desempenho do estudante (OK!!!)
 
 Um dos principais desafios em trabalhar com grandes quantidades de dados é ser capaz de extrair o conhecimento que está implícito nas bases de dados e os tornarem úteis para as pessoas envolvidas. Técnicas de mineração de dados podem ser aplicadas para analisar um grande volume de dados gerados em AVAs. Este procedimento é chamado EDM (Educational Data Mining). EDM está preocupado com o desenvolvimento de métodos para explorar os dados em ambientes educacionais e, através destes métodos, entender melhor os alunos e os contextos em que eles aprendem \cite{baker2010data}.
 
+Para realização do estudo, foi nescessário auxilio de uma ferramenta para extração, transformação e carga de dados e outra para aplicar os algoritmos de mineração de dados. As ferramentas escolhidas foram Pentaho Data Integration \cite{Pentaho:2014} e Weka \cite{Weka:2014} ambos os softwares são livre.
 
-Para realização do estudo, foi nescessário auxilio de uma ferramenta para extração, transformação e carga de dados e outra para aplicar os algoritmos de mineração de dados. As ferramentas escolhidas foram Pentaho Data Integration e Weka ambos os softwares são livre.
-
-%[comment] Colocar referencia das ferramentas
+%[comment] Colocar referencia das ferramentas (OK!!!)
 
 
 \section{Metodologia}
 
 Objetivando entender se ferramentas e recursos presentes dentro do ambiente virtual de aprendizagem Moodle realmente estão sendo utilizadas e se influenciam no desempenho dos estudantes, foi realizado um estudo exploratório utilizando técnicas de EDM e aplicado um questionário para os tutores online para identificar a relação entre as ferramentas utilizadas e o desempenho dos estudantes. 
 
-%[comment] Voce adicionou um novo fator "desempenho do estudante", este fator nao foi abordado na introducao
+%[comment] Voce adicionou um novo fator "desempenho do estudante", este fator nao foi abordado na introducao (OK!!!)
 
 A plataforma Moodle permite à transmissão e organização dos conteúdos com auxilio dos seus recursos e ferramentas, facilitando a comunicação síncrona e assíncrona, esses recursos estão divididos em dois. Os estáticos (páginas web, páginas de texto e conteúdo de pastas) e os dinâmicos (chat, diário, fórum glossário, wiki, livros, etc.). O estudo foi realizado sobre as ferramentas dinâmicas: Modulos, assing, blog, book, chat, choice, discussion, fórum, glossary, message, quis, survey e wiki. Essas ferramentas foram escolhidas por serem ferramentas onde ocorre a maior interação entre o professor/tutor e os estudantes.
 Seguidos os procedimentos metodológicos foram criadas algumas etapas como segue abaixo:
@@ -92,6 +92,10 @@ Muitos esforços têm sido feito em relação à descoberta de conhecimento em ambien
 %[comment] falta colocar referencia dos algoritmos
 
 A pesquisa de \cite{Azeredo:06} faz um estudo no sentido de analisar indicadores de relevância nas postagens dos fóruns de discursão. Utilizando técnicas de mineração de dados, onde foi desenvolvido o software MineraFórum. Os resultados apresentados pelo MineraFórum foram comparados com um questionário aplicado com docentes, onde se concluiu que a média das análises das postagens, calculada pelo MineraFórum, é semelhante à média das avaliações dos professores.
+
+\cite{5942032} faz um estudo focado no AVA Moodle, onde os autores tem como objetivo descobrir a escolha do melhor e mais adequado sistemas de e-learning fazendo uma comparação com outros ambientes virtuais de aprendizagem. Chegando a conclusão que a plataforma moodle em comparação com outros sistemas de e- learning  é um sistema ideal para educação à distância. 
+
+Já \cite{Mozzaquatro:15} fazem uma avaliação das características funcionais e não funcionais do sistema moodle através de questionário e observação. Para o estudo foi realizada a análise e avaliação da estrutura e organização do AVA Moodle, utilizado em duas Instituições de Ensino Superior. Dentre várias conclusões obtidas com o estudo, vale destacar a conclusão que se referem às ferramentas onde, foi possível concluir que as formas de interação no ambiente foram consideradas boas e a ferramenta de interação que mais contribuiu para a aprendizagem foi o fórum, seguido da ferramenta de livros e questionários.
 
 Neste trabalho, em contribuição aos que foram apresentados nesta seção, propõe apresentar um estudo exploratório sobre o uso das ferramentas no AVA moodle utilizando dois métodos o primeiro sendo o uso de técnica de mineração de dados e a segunda um questionário aplicado aos tutores online, por fim fazer um comparativo dos resultados desses dois métodos. Vale salientar que esse estudo irá abortar todas as ferramentas disponíveis no AVA moodle.
 
