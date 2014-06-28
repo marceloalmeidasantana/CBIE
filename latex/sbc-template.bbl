@@ -13,7 +13,7 @@ Baker, R. et~al. (2010).
 \newblock {\em International encyclopedia of education}, 7:112--118.
 
 \bibitem[Gottardo et~al. 2012]{Gottardo:09}
-Gottardo, E., Kaestner, C., and V., N.~R. (2012).
+Gottardo, E., Kaestner, C., and Noronha, R.~V. (2012).
 \newblock Previs{\~a}o de desempenho de estudantes em cursos ead utilizando
   minera{\c c}{\~a}o de dados: uma estrat{\'e}gia baseada em s{\'e}ries
   temporais.
@@ -53,12 +53,6 @@ Oeiras, J. Y.~Y., Freire, F. M.~P., Lachi, R.~L., and da~Rocha, H.~V. (2006).
 \newblock In {\em Proceedings of VII Brazilian Symposium on Human Factors in
   Computing Systems}, IHC '06, pages 56--65, New York, NY, USA. ACM.
 
-\bibitem[ONODA and EBECKEN 2001]{Onoda:12}
-ONODA, M. and EBECKEN, N. F.~F. (2001).
-\newblock Implementa{\c c}{\~a}o em java de um algoritmo de {\'a}rvore de
-  decis{\~a}o acoplado a um sgbd relacional.
-\newblock {\em Simp{\'o}sio Brasileiro de Banco de Dados. XVI.}, pages 55--64.
-
 \bibitem[Pentaho 2014]{Pentaho:2014}
 Pentaho (2014).
 \newblock {Pentaho - } pentaho data integration.
@@ -83,6 +77,20 @@ SHIBA, M.~H. (2005).
   aprendizagem por {\'a}rvore de decis{\~a}o: Uma avalia{\c c}{\~a}o de
   desempenho.
 \newblock {\em Anais XII Simp{\'o}sio Brasileiro Remoto}, pages 16--21.
+
+\bibitem[Sim{\~o}es and Paulo 2011]{simoes:16}
+Sim{\~o}es, P. and Paulo, R. (2011).
+\newblock Utiliza{\c c}{\~a}o de t{\'e}cnicas de aprendizado de m{\'a}quina no
+  reconhecimento de entidades nomeadas no portugu{\^e}s.
+\newblock {\em Revista letr{\^o}nicas do Centro Universit{\'a}rio e-Xacta, Belo
+  Horizonte}.
+
+\bibitem[UFAL 2014]{UFAL:2014}
+UFAL (2014).
+\newblock Universidade federal de alagoas.
+\newblock
+  \url{http://www.ufal.edu.br/cied/nucleo-de-tutoria/estrutura-do-nucleo}.
+\newblock Acesso em junho 2014.
 
 \bibitem[Weka 2014]{Weka:2014}
 Weka (2014).
