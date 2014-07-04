@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.7.11)  1 JUL 2014 20:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.7.11)  3 JUL 2014 22:20
 entering extended mode
 **sbc-template.tex
 (D:\GitHub\artigo\CBIE\latex\sbc-template.tex
@@ -221,59 +221,57 @@ File: ArvoreJ48.jpg Graphic file (type jpg)
  <use ArvoreJ48.jpg>
 Package pdftex.def Info: ArvoreJ48.jpg used on input line 163.
 (pdftex.def)             Requested size: 298.75264pt x 123.04576pt.
- [5 <D:/GitHub/artigo/CBIE/latex/Pentaho.jpg>] <ResumoJ48.jpg, id=26, 350.81062pt x 127.97812pt>
-File: ResumoJ48.jpg Graphic file (type jpg)
- <use ResumoJ48.jpg>
-Package pdftex.def Info: ResumoJ48.jpg used on input line 176.
-(pdftex.def)             Requested size: 213.39568pt x 77.84976pt.
- [6 <D:/GitHub/artigo/CBIE/latex/ArvoreJ48.jpg>] <MaisUsadas.jpg, id=30, 416.55624pt x 225.84375pt>
+ [5 <D:/GitHub/artigo/CBIE/latex/Pentaho.jpg>] [6 <D:/GitHub/artigo/CBIE/latex/ArvoreJ48.jpg>] <MaisUsadas.jpg, id=29, 4
+16.55624pt x 225.84375pt>
 File: MaisUsadas.jpg Graphic file (type jpg)
- <use MaisUsadas.jpg>
-Package pdftex.def Info: MaisUsadas.jpg used on input line 204.
+
+<use MaisUsadas.jpg>
+Package pdftex.def Info: MaisUsadas.jpg used on input line 198.
 (pdftex.def)             Requested size: 213.39568pt x 115.6957pt.
- [7 <D:/GitHub/artigo/CBIE/latex/ResumoJ48.jpg> <D:/GitHub/artigo/CBIE/latex/MaisUsadas.jpg>]
-Overfull \hbox (30.2339pt too wide) in paragraph at lines 218--267
+ [7 <D:/GitHub/artigo/CBIE/latex/MaisUsadas.jpg>]
+Overfull \hbox (30.2339pt too wide) in paragraph at lines 212--261
  [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 271.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 265.
 ("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 271.
- <ResultTempo.jpg, id=36, 936.49875pt x 401.5pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 265.
+ <ResultTempo.jpg, id=35, 936.49875pt x 401.5pt>
 File: ResultTempo.jpg Graphic file (type jpg)
 
 <use ResultTempo.jpg>
-Package pdftex.def Info: ResultTempo.jpg used on input line 274.
+Package pdftex.def Info: ResultTempo.jpg used on input line 268.
 (pdftex.def)             Requested size: 213.39568pt x 91.48535pt.
- <ResultForum.jpg, id=37, 704.6325pt x 180.675pt>
+ [8] <ResultForum.jpg, id=40, 704.6325pt x 180.675pt>
 File: ResultForum.jpg Graphic file (type jpg)
  <use ResultForum.jpg>
-Package pdftex.def Info: ResultForum.jpg used on input line 281.
+Package pdftex.def Info: ResultForum.jpg used on input line 275.
 (pdftex.def)             Requested size: 213.39568pt x 54.71568pt.
 
-<ResultDificuldade.jpg, id=38, 678.535pt x 366.36874pt>
+<ResultDificuldade.jpg, id=41, 678.535pt x 366.36874pt>
 File: ResultDificuldade.jpg Graphic file (type jpg)
  <use ResultDificuldade.jpg>
-Package pdftex.def Info: ResultDificuldade.jpg used on input line 288.
+Package pdftex.def Info: ResultDificuldade.jpg used on input line 282.
 (pdftex.def)             Requested size: 213.39568pt x 115.21669pt.
- [8 <D:/GitHub/artigo/CBIE/latex/ResultTempo.jpg> <D:/GitHub/artigo/CBIE/latex/ResultForum.jpg>] [9] [10 <D:/GitHub/arti
-go/CBIE/latex/ResultDificuldade.jpg>] (D:\GitHub\artigo\CBIE\latex\sbc-template.bbl
+ [9 <D:/GitHub/artigo/CBIE/latex/ResultTempo.jpg> <D:/GitHub/artigo/CBIE/latex/ResultForum.jpg> <D:/GitHub/artigo/CBIE/l
+atex/ResultDificuldade.jpg>]
+(D:\GitHub\artigo\CBIE\latex\sbc-template.bbl [10]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 40.
  ("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [11]) [12]
+)) [11]
 (D:\GitHub\artigo\CBIE\latex\sbc-template.aux) ) 
 Here is how much of TeX's memory you used:
- 2428 strings out of 493921
- 33508 string characters out of 3147276
- 102000 words of memory out of 3000000
- 5687 multiletter control sequences out of 15000+200000
+ 2422 strings out of 493921
+ 33409 string characters out of 3147276
+ 97991 words of memory out of 3000000
+ 5682 multiletter control sequences out of 15000+200000
  20526 words of font info for 43 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 30i,11n,28p,986b,270s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,12n,28p,989b,270s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<D:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmr12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/
@@ -281,9 +279,9 @@ public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/couri
 .9/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/Program Fi
 les/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sbc-template.pdf (12 pages, 477131 bytes).
+Output written on sbc-template.pdf (11 pages, 445700 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
