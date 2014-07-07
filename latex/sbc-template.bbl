@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[ABED 2014]{ABED:2014}
+ABED (2014).
+\newblock Associa{\c c}{\~a}o brasileira de educa{\c c}{\~a}o a dist{\^a}ncia.
+\newblock \url{http://www.abed.org.br/site/pt/}.
+\newblock Acesso em junho 2014.
+
 \bibitem[Azeredo et~al. 2012]{Azeredo:06}
 Azeredo, B. F.~T., Behar, P.~A., and Reategui, E.~B. (2012).
 \newblock Indicadores de relev{\^a}ncia para an{\'a}lise de f{\'o}runs de
@@ -19,6 +25,11 @@ Gottardo, E., Kaestner, C., and Noronha, R.~V. (2012).
   temporais.
 \newblock {\em Simp{\'o}sio Brasileiro de Inform{\'a}tica na Educa{\c c}{\~a}o,
   Rio de Janeiro}.
+
+\bibitem[Han et~al. 2011]{Han:2011:DMC:1972541}
+Han, J., Kamber, M., and Pei, J. (2011).
+\newblock {\em Data Mining: Concepts and Techniques}.
+\newblock Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 3rd edition.
 
 \bibitem[Kumar et~al. 2011]{5942032}
 Kumar, S., Gankotiya, A., and Dutta, K. (2011).
@@ -70,13 +81,6 @@ Romero, C., Ventura, S., and Garc{\'i}a, E. (2008).
 \newblock Data mining in course management systems: Moodle case study and
   tutorial.
 \newblock {\em Computers \& Education}, 51(1):368--384.
-
-\bibitem[SHIBA 2005]{Shiba:13}
-SHIBA, M.~H. (2005).
-\newblock Classifica{\c c}{\~a}o de imagens de sensoriamento remoto pela
-  aprendizagem por {\'a}rvore de decis{\~a}o: Uma avalia{\c c}{\~a}o de
-  desempenho.
-\newblock {\em Anais XII Simp{\'o}sio Brasileiro Remoto}, pages 16--21.
 
 \bibitem[Sim{\~o}es and Paulo 2011]{simoes:16}
 Sim{\~o}es, P. and Paulo, R. (2011).

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.7.11)  3 JUL 2014 22:20
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.7.11)  6 JUL 2014 16:42
 entering extended mode
 **sbc-template.tex
 (D:\GitHub\artigo\CBIE\latex\sbc-template.tex
@@ -122,19 +122,19 @@ File: latin1.def 2008/03/30 v1.1d Input encoding file
 )) ("D:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen122
 ) (D:\GitHub\artigo\CBIE\latex\sbc-template.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 21.
  ("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -187,101 +187,96 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \everyMPtoPDFconversion=\toks20
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 25.
+(Font)              <12> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 25.
+(Font)              <8> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 25.
+(Font)              <6> on input line 23.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 108.
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 2189) in paragraph at lines 52--54
+[]\OT1/ptm/m/n/12 Os re-sul-ta-dos ap-re-sen-ta-dos, com-pro-varam que a maio-ria das fer-ra-men-tas
+ []
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+[2]
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 78.
+ ("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 108.
- [4] <Pentaho.jpg, id=21, 851.18pt x 277.035pt>
-File: Pentaho.jpg Graphic file (type jpg)
-
-<use Pentaho.jpg>
-Package pdftex.def Info: Pentaho.jpg used on input line 144.
-(pdftex.def)             Requested size: 213.39568pt x 69.45302pt.
- <ArvoreJ48.jpg, id=22, 952.30782pt x 392.21532pt>
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 78.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 79.
+ [3] [4]
+<ArvoreJ48.jpg, id=20, 952.30782pt x 392.21532pt>
 File: ArvoreJ48.jpg Graphic file (type jpg)
  <use ArvoreJ48.jpg>
-Package pdftex.def Info: ArvoreJ48.jpg used on input line 163.
-(pdftex.def)             Requested size: 298.75264pt x 123.04576pt.
- [5 <D:/GitHub/artigo/CBIE/latex/Pentaho.jpg>] [6 <D:/GitHub/artigo/CBIE/latex/ArvoreJ48.jpg>] <MaisUsadas.jpg, id=29, 4
-16.55624pt x 225.84375pt>
+Package pdftex.def Info: ArvoreJ48.jpg used on input line 127.
+(pdftex.def)             Requested size: 341.43437pt x 140.62286pt.
+ [5 <D:/GitHub/artigo/CBIE/latex/ArvoreJ48.jpg>]
+<MaisUsadas.jpg, id=24, 416.55624pt x 225.84375pt>
 File: MaisUsadas.jpg Graphic file (type jpg)
-
-<use MaisUsadas.jpg>
-Package pdftex.def Info: MaisUsadas.jpg used on input line 198.
+ <use MaisUsadas.jpg>
+Package pdftex.def Info: MaisUsadas.jpg used on input line 144.
 (pdftex.def)             Requested size: 213.39568pt x 115.6957pt.
- [7 <D:/GitHub/artigo/CBIE/latex/MaisUsadas.jpg>]
-Overfull \hbox (30.2339pt too wide) in paragraph at lines 212--261
- [][] 
- []
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 211.
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 265.
 ("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 265.
- <ResultTempo.jpg, id=35, 936.49875pt x 401.5pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 211.
+ <ResultTempo.jpg, id=25, 936.49875pt x 401.5pt>
 File: ResultTempo.jpg Graphic file (type jpg)
 
 <use ResultTempo.jpg>
-Package pdftex.def Info: ResultTempo.jpg used on input line 268.
-(pdftex.def)             Requested size: 213.39568pt x 91.48535pt.
- [8] <ResultForum.jpg, id=40, 704.6325pt x 180.675pt>
+Package pdftex.def Info: ResultTempo.jpg used on input line 216.
+(pdftex.def)             Requested size: 256.07741pt x 109.78488pt.
+ <ResultForum.jpg, id=26, 704.6325pt x 180.675pt>
 File: ResultForum.jpg Graphic file (type jpg)
  <use ResultForum.jpg>
-Package pdftex.def Info: ResultForum.jpg used on input line 275.
-(pdftex.def)             Requested size: 213.39568pt x 54.71568pt.
+Package pdftex.def Info: ResultForum.jpg used on input line 225.
+(pdftex.def)             Requested size: 256.07741pt x 65.66048pt.
 
-<ResultDificuldade.jpg, id=41, 678.535pt x 366.36874pt>
+<ResultDificuldade.jpg, id=27, 678.535pt x 366.36874pt>
 File: ResultDificuldade.jpg Graphic file (type jpg)
  <use ResultDificuldade.jpg>
-Package pdftex.def Info: ResultDificuldade.jpg used on input line 282.
-(pdftex.def)             Requested size: 213.39568pt x 115.21669pt.
- [9 <D:/GitHub/artigo/CBIE/latex/ResultTempo.jpg> <D:/GitHub/artigo/CBIE/latex/ResultForum.jpg> <D:/GitHub/artigo/CBIE/l
-atex/ResultDificuldade.jpg>]
-(D:\GitHub\artigo\CBIE\latex\sbc-template.bbl [10]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 40.
- ("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+Package pdftex.def Info: ResultDificuldade.jpg used on input line 232.
+(pdftex.def)             Requested size: 256.07741pt x 138.26561pt.
+ [6 <D:/GitHub/artigo/CBIE/latex/MaisUsadas.jpg>] [7 <D:/GitHub/artigo/CBIE/latex/ResultTempo.jpg>] [8 <D:/GitHub/artigo
+/CBIE/latex/ResultForum.jpg> <D:/GitHub/artigo/CBIE/latex/ResultDificuldade.jpg>] (D:\GitHub\artigo\CBIE\latex\sbc-templ
+ate.bbl
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 6.
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)) [11]
-(D:\GitHub\artigo\CBIE\latex\sbc-template.aux) ) 
+) [9]) [10] (D:\GitHub\artigo\CBIE\latex\sbc-template.aux) ) 
 Here is how much of TeX's memory you used:
- 2422 strings out of 493921
- 33409 string characters out of 3147276
- 97991 words of memory out of 3000000
- 5682 multiletter control sequences out of 15000+200000
- 20526 words of font info for 43 fonts, out of 3000000 for 9000
+ 2421 strings out of 493921
+ 33388 string characters out of 3147276
+ 101974 words of memory out of 3000000
+ 5680 multiletter control sequences out of 15000+200000
+ 23696 words of font info for 47 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 30i,12n,28p,989b,270s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<D:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><D:/Program Files/MiKTeX 2
-.9/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files/M
-iKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/Program Fi
-les/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sbc-template.pdf (11 pages, 445700 bytes).
+ 30i,12n,28p,966b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc
+}<D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/courier/ucrr8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Program Files/Mi
+KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><D:/Program Fil
+es/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sbc-template.pdf (10 pages, 389443 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
