@@ -28,50 +28,50 @@ Virtual learning environments (VLE) have contributed to the growth and popularit
      
 \begin{resumo}
 %[comment] Falta dizer que o estudo esta focado no ambiente de aprendizagem Moodle
-Os ambientes virtuais de aprendizagem (AVA) têm contribuído para o crescimento e popularização da modalidade de ensino a distância. Tais AVAs são dotados de uma variedade de ferramentas cujo objetivo é facilitar o processo de ensino e aprendizagem. Entretanto, poucos estudos têm sido realizados para avaliar a eficácia destas ferramentas. O objetivo deste trabalho é avaliar o uso destas ferramentas e o impacto das mesmas sobre o desempenho dos estudantes nas disciplinas. Tal avaliação foi realizada no ambiente de aprendizagem Moodle e os resultados mostram que a maioria das ferramentas disponíveis no Moodle estão sendo subutilizadas e que a relação entre elas e o desempenho dos estudantes estão muito baixa.
+Os ambientes virtuais de aprendizagem (AVA) têm contribuído para o crescimento e popularização da modalidade de ensino a distância. Tais AVAs são dotados de uma variedade de ferramentas cujo objetivo é facilitar o processo de ensino e aprendizagem. Entretanto, poucos estudos têm sido realizados para avaliar a eficácia destas ferramentas. O objetivo deste trabalho é avaliar o uso destas ferramentas e o impacto das mesmas sobre o desempenho dos estudantes nas disciplinas. Tal avaliação foi realizada no ambiente de aprendizagem Moodle e os resultados mostram que a maioria das ferramentas disponíveis no Moodle estão sendo subutilizadas e que a relação entre elas e o desempenho dos estudantes está muito baixa.
 \end{resumo}
 
 \section{Introdução}
     
-    O uso de ambientes virtuais de aprendizagem (AVA) tem sido um dos principais fatores que levaram o rápido crescimento da educação a distância (EAD) \cite{ABED:2014}. %[comment] Voce tem referencia? (OK!!!)
-Um AVA permite que os educadores compartilhem informações para os alunos, produzam material de conteúdo, prepararem trabalhos, testes, se envolvam em discussões, gerenciem classes à distância e permitam a aprendizagem colaborativa com fóruns, chats, áreas de armazenamento de arquivos, serviços de notícias, etc \cite{journals/ce/RomeroVG08}. De acordo com \cite{Magalhaes:2010:IDU:1999593.1999626}, hoje em dia, um dos AVAs mais utilizado no mundo é o Moodle, que é uma plataforma de aprendizagem projetada para fornecer aos educadores, administradores e estudantes um sistema robusto, seguro e integrado para criar ambientes de aprendizagem personalizados \cite{Moodle:2014}. E tem como característica manter registros detalhados de todas as atividades que os alunos realizam, gerando grandes volume de dados.
+    O uso de ambientes virtuais de aprendizagem (AVA) tem sido um dos principais fatores que levaram ao rápido crescimento da educação a distância (EAD) \cite{ABED:2014}. %[comment] Voce tem referencia? (OK!!!)
+Um AVA permite que os educadores compartilhem informações com os alunos, produzam material de conteúdo, preparem trabalhos, testes, se envolvam em discussões, gerenciem classes à distância e permitam a aprendizagem colaborativa com fóruns, chats, áreas de armazenamento de arquivos, serviços de notícias, etc \cite{journals/ce/RomeroVG08}. De acordo com \cite{Magalhaes:2010:IDU:1999593.1999626}, hoje em dia, um dos AVAs mais utilizados no mundo é o Moodle, que é uma plataforma de aprendizagem projetada para fornecer aos educadores, administradores e estudantes um sistema robusto, seguro e integrado para criar ambientes de aprendizagem personalizados \cite{Moodle:2014}. E tem como característica manter registros detalhados de todas as atividades que os alunos realizam, gerando grandes volume de dados.
 
  %[comment] Você deve explicar e defender o uso de EDM antes descrever o seu uso, ou seja, o paragrafo abaixo deve ser ressaltado antes do paragrafo anterior.(OK!!!)
 Técnicas de mineração de dados podem ser aplicadas para analisar grande volume de dados gerados em AVAs. Este procedimento é chamado EDM (Educational Data Mining). EDM está preocupado com o desenvolvimento de métodos para explorar os dados em ambientes educacionais e, através destes métodos, entender melhor os alunos e os contextos em que eles aprendem \cite{baker2010data}. 
 
 O Moodle também disponibiliza uma variedade de ferramentas que podem ser utilizadas por professores e estudantes para realizar diversas atividades de ensino e aprendizagem. Entretanto, não existem estudos que avaliem a importância destas ferramentas \cite{Oeiras:2006:DDF:1298023.1298032}. Diante disso, podemos levatar alguns questionamentos: As ferramentas disponíveis estão sendo utilizadas? Quais ferramentas de fato são úteis para o processo de ensino e aprendizagem dos estutantes? Quais as ferramentas mais utilizadas? As ferramentas estão influenciando no desempenho dos estudantes? O objetivo principal deste trabalho é responder algumas dessas questões, para isso foram utilizados dois métodos distintos.
 
-O primeiro método usado foi a aplicação de um questionário aos tutores online a fim de identificar a disponibilidade de tempo dos tutores online, quais ferramentas disponibilizadas pelo AVA Moodle estão sendo efetivamente utilizadas e se existe algum dificuldade no uso de tais ferramentas. O segundo método foi aplicar técnicas de mineração de dados educacional (EDM) sobre %[comment] Não entendi. Você aplica mineração de dados sobre o AVA moodle? Ou sobre os dados de acesso dos usuários? (OK!!)
-a base de dados do AVA Moodle, com o propósito de identificar quais as ferramentas mais usadas e o impacto das mesmas sobre o desempenho dos estudantes nas disciplinas. Para isso foi aplicado algoritmos de classificação, com objetivo de classificar os estudantes de acordo com suas notas e ferramentas usadas.  
+O primeiro método usado foi a aplicação de um questionário aos tutores online a fim de identificar a disponibilidade de tempo dos tutores online, quais ferramentas disponibilizadas pelo AVA Moodle estão sendo efetivamente utilizadas e se existe algum dificuldade no uso de tais ferramentas. O segundo método foi aplicar técnicas de mineração de dados educacionais (EDM) sobre %[comment] Não entendi. Você aplica mineração de dados sobre o AVA moodle? Ou sobre os dados de acesso dos usuários? (OK!!)
+a base de dados do AVA Moodle, com o propósito de identificar quais as ferramentas mais usadas e o impacto das mesmas sobre o desempenho dos estudantes nas disciplinas. Para isso foram aplicados algoritmos de classificação, com objetivo de classificar os estudantes de acordo com suas notas e ferramentas usadas.  
 %[comment] Resta descrever pq foi preciso realizar estes dois metodos (OK!!)
 
-A utilização de dois métodos foi necessário, pois somente os dados presentes na base de dados do AVA Moodle não eram suficientes para extrair informações que respondessem todos os questionamentos da referida pesquisa. Diante disso foi aplicado um questionário para obter dados externo a base de dados do AVA Moodle. Para realização do estudo, foi indispensável auxílio de uma ferramenta para extração, transformação e carga de dados e outra para aplicar os algoritmos de mineração de dados. As ferramentas escolhidas foram Pentaho Data Integration \cite{Pentaho:2014} e Weka \cite{Weka:2014}.  
+A utilização de dois métodos foram necessários, devido os dados conditos na base de dados do AVA Moodle não serem suficientes para extrair informações que respondessem a todos os questionamentos da referida pesquisa. Diante disso foi aplicado um questionário para obter dados externos a base de dados do AVA Moodle. Para realização do estudo, foi indispensável auxílio de uma ferramenta para extração, transformação e carga de dados e outra para aplicar os algoritmos de mineração de dados. As ferramentas escolhidas foram Pentaho Data Integration \cite{Pentaho:2014} e Weka \cite{Weka:2014}.  
 
 %[comment] Voce nao falou sobre o desempenho do estudante, voce deve deixar clara a relacao: mineracao dos dados x questionario x desempenho do estudante
 
-Os resultados apresentados, comprovaram que a maioria das ferramentas disponíveis no Moodle estão sendo subutilizadas e que a relação entre elas não estão tendo tanta influência no desempenho dos estudantes.
+Os resultados apresentados, comprovaram que a maioria das ferramentas disponíveis no Moodle estão sendo subutilizadas e que a relação entre elas não está tendo tanta influência no desempenho dos estudantes.
 %[comment] Você deve descrever alguns resultados.(OK!!!)
 
 \section{Metodologia}
 
 A fim de avaliar o uso e a influência das ferramentas de aprendizagem disponíveis no Moodle, aplicamos técnicas de EDM e um questionário para os tutores online, que são fundamentais no processo de EAD, pois tem como papel mediar a comunicação de conteúdos entre o professor e os estudantes, acompanhar as atividades discentes e apoiar o professor da disciplina no desenvolvimento das atividades docentes \cite{UFAL:2014}. %[comment] O que são tutores online?
 
-A plataforma Moodle permite à transmissão e organização dos conteúdos com auxílio de ferramentas estáticas (páginas web, páginas de texto e conteúdo de pastas) e dinâmicas (chat, diário, fórum glossário, quiz, wiki, livros, etc.). Este estudo foi realizado sobre as ferramentas dinâmicas, essas ferramentas foram escolhidas por possibilitarem uma maior interação entre os professores, tutores e estudantes. O estudo foi realizado seguindo as etapas descritas abaixo:
+A plataforma Moodle permite a transmissão e organização dos conteúdos com auxílio de ferramentas estáticas (páginas web, páginas de texto e conteúdo de pastas) e dinâmicas (chat, diário, fórum, glossário, quiz, wiki, livros, etc.). Este estudo foi realizado sobre as ferramentas dinâmicas, que foram escolhidas por possibilitarem uma maior interação entre os professores, tutores e estudantes. O estudo foi realizado seguindo as etapas descritas abaixo:
 \begin{enumerate}
-\item	Pesquisa bibliográfica sobre Ambientes Virtuais de Aprendizagem, Mineração de dados e Mineração de dados na Educação (EDM);
+\item	Pesquisa bibliográfica sobre Ambientes Virtuais de Aprendizagem, Mineração de Dados e Mineração de Dados na Educação (EDM);
 \item Elaboração de questionário para os tutores online; %[comment] Explicar pq o questionário não foi aplicado para os professores
 \item Seleção e tratamentos dos dados, objetivando preparar os dados para aplicação de técnicas de EMD;
 \item Realização dos experimentos;
 \item Discussão dos resultados.
 \end{enumerate}
 
-Desenvolvida essas etapas, foi possível identificar a disponibilidade dos tutores online, as ferramentas mais utilizadas e a relação das ferramentas com o desempenho dos estudantes. Os resultados e considerações sobre as etapas acima são apresentadas na seção 5.
+Desenvolvidas essas etapas, foi possível identificar a disponibilidade dos tutores online, as ferramentas mais utilizadas e a relação entre as ferramentas e o desempenho dos estudantes. Os resultados e considerações sobre as etapas acima são apresentadas na seção 5.
 
 \section{Seleção e tratamento dos dados}
 
 Para realização desse trabalho, foi utilizado um banco de dados real do AVA Moodle, cedido pela Universidade Federal de Alagoas (UFAL), contendo dez cursos de graduação à distância com cerca de 1800 alunos matriculados. Deste ambiente selecionou-se os quatros cursos que tinham o maior número de estudantes matriculados.
 
-Seguindo o critério apresentado acima, foram selecionados os cursos de sistema de informação com 478 alunos matriculados, física com 211 alunos, geografia com 232 e letras com 179 alunos matriculados. Foi escolhido um subconjunto de atributos a fim de reduzir a dimensão e a complexidade do banco de dados. A escolha dos atributos se deu de acordo com a importância dos dados especificamente para o estudo das ferramentas e desempenho dos estudantes, foram descartados atributos como dados cadastrais dos estudantes, dados cadastrais dos cursos e disciplinas entre outros que não iriam influenciar no estudo das ferramentas e desempenho dos estudantes.A tabela ~\ref{t_fixas} apresenta os atributos selecionados.
+Seguindo o critério apresentado acima, foram selecionados os cursos de Sistema de Informação com 478 alunos matriculados; Física, com 211 alunos; Geografia, com 232; e Letras, com 179 alunos matriculados. Foi escolhido um subconjunto de atributos a fim de reduzir a dimensão e a complexidade do banco de dados. A escolha dos atributos se deu de acordo com a importância dos dados especificamente para o estudo das ferramentas e desempenho dos estudantes. Foram descartados atributos como dados cadastrais dos estudantes, dados cadastrais dos cursos e disciplinas entre outros que não iriam influenciar no estudo das ferramentas e desempenho dos estudantes. A tabela ~\ref{t_fixas} apresenta os atributos selecionados.
 \begin{table}[!htpb]
 \scriptsize
  \centering
@@ -80,42 +80,41 @@ Seguindo o critério apresentado acima, foram selecionados os cursos de sistema d
 \hline
 \multicolumn{1}{|c|}{Atributo} & \multicolumn{1}{c|}{Descrição} \\ \hline
 Curso & Descrição do Curso \\ \hline
-AcessoTotal & Numero total de acesso dos usuários \\ \hline
+AcessoTotal & Número total de acessos dos usuários \\ \hline
 MediaNotas & Média das notas dos estudantes por curso \\ \hline
 Assign & Quantidade de arquivos enviados pelo estudante \\ \hline
-Blog & Quantidade de acesso do estudante a ferramenta blog \\ \hline
-Book & Quantidade de acesso do estudante a ferramenta book \\ \hline
-Chat & Quantidade de acesso do estudante a ferramenta chat \\ \hline
-Choice & Quantidade de acesso do estudante a ferramenta choice \\ \hline
-Discussion & Quantidade de acesso do estudante a ferramenta discussion \\ \hline
-Forum & Quantidade de acesso do estudante a ferramenta forum \\ \hline
-Glossary & Quantidade de acesso do estudante a ferramenta glossary \\ \hline
-Message & Quantidade de acesso do estudante a ferramenta message \\ \hline
-Quis & Quantidade de acesso do estudante a ferramenta quiz \\ \hline
-Survey & Quantidade de acesso do estudante a ferramenta survey \\ \hline
-Wiki & Quantidade de acesso do estudante a ferramenta wiki \\ \hline
-Workshop & Quantidade de acesso do estudante a ferramenta workshop \\ \hline
+Blog & Quantidade de acessos do estudante a ferramenta blog \\ \hline
+Book & Quantidade de acessos do estudante a ferramenta book \\ \hline
+Chat & Quantidade de acessos do estudante a ferramenta chat \\ \hline
+Choice & Quantidade de acessos do estudante a ferramenta choice \\ \hline
+Discussion & Quantidade de acessos do estudante a ferramenta discussion \\ \hline
+Forum & Quantidade de acessos do estudante a ferramenta forum \\ \hline
+Glossary & Quantidade de acessos do estudante a ferramenta glossary \\ \hline
+Message & Quantidade de acessos do estudante a ferramenta message \\ \hline
+Quis & Quantidade de acessos do estudante a ferramenta quiz \\ \hline
+Survey & Quantidade de acessos do estudante a ferramenta survey \\ \hline
+Wiki & Quantidade de acessos do estudante a ferramenta wiki \\ \hline
+Workshop & Quantidade de acessos do estudante a ferramenta workshop \\ \hline
 \end{tabular}
 \label{t_fixas}
 \end{table}
 
 %[comment] A primeira vez que você fala sobre algoritmos de classificação e agrupamento (ficou "voando") (OK!!!)
-Com objetivo de classificar os estudantes de acordo com suas notas e ferramentas usadas, foi aplicado algoritmos de classificação. Alguns algoritmos de classificação e agrupamento somente conseguem lidar com atributos nominais. Para usá-los os atributos numéricos deve primeiro ser ``discretizados'' \cite{Witten:2011:DMP:1972514}. Desse modo, para viabilizar a utilização de alguns tipos de métodos e também para facilitar a interpretação dos resultados os dados foram discretizados conforme os procedimentos abaixo.
+Com objetivo de classificar os estudantes de acordo com suas notas e ferramentas usadas, foram aplicados algoritmos de classificação. Alguns algoritmos de classificação e agrupamento somente conseguem lidar com atributos nominais. Para usá-los, os atributos numéricos devem primeiro ser ``discretizados'' \cite{Witten:2011:DMP:1972514}. Desse modo, para viabilizar a utilização de alguns tipos de métodos e também para facilitar a interpretação dos resultados, os dados foram discretizados conforme os procedimentos abaixo.
 
-O primeiro atributo a ser discretizados foi o atributo ``AcessoTotal'', onde foi observado a média da quantidade total de acessos dos estudantes e divido em três grupos. Os valores que estavam acima da média foi atribuído o rótulo de ``Alto'', os que estavam próximo da média foram rotulados com ``Medio'' e por fim os valores que estavam abaixo da média ganharam o rótulo de ``Baixo''.
+O primeiro atributo a ser discretizado foi o atributo ``AcessoTotal'', onde foi dividido em três grupos de acordo com a média da quantidade total de acessos dos estudantes. Aos valores que estavam acima da média foi atribuído o rótulo de ``Alto'', os que estavam próximo da média foram rotulados com ``Medio'' e por fim os valores que estavam abaixo da média ganharam o rótulo de ``Baixo''.
 
-O atributo ``MediaNota'' também foi dividido em três grupos, A, B e C a depender da média das notas obtidas pelos estudantes. A média das notas dos estudantes ficou por volta de 68, os estudantes que tiveram notas maiores que a média ficaram no grupo ``A'' os que obtiveram as notas iguais ou próximas da média ficaram no grupo ``B'' e os que apresentaram notas abaixo da média ficaram no grupo ``C''.
+O atributo ``MediaNota'' também foi dividido em três grupos (A, B e C), a depender da média das notas obtidas pelos estudantes. A média das notas dos estudantes ficou por volta de 68. Os estudantes que tiveram notas maiores que a média ficaram no grupo ``A'' os que obtiveram as notas iguais ou próximas da média ficaram no grupo ``B'' e os que apresentaram notas abaixo da média ficaram no grupo ``C''.
 
-Os atributos que representam a quantidade de acesso das ferramentas foram discretizados utilizado o mesmo método anterior somente acrescentando o valor ``sem acesso'' quando a ferramenta em questão não tiver tido nenhum acesso dos estudantes. Vale destacar que existem diversas formas para o processo de discretização. Além disso, o número de classes e o número de instâncias em cada classe podem variar em função dos objetivos e das características particulares de cada estudo. %[comment] Você deve defender pq a discretização acima foi utilizada
+Os atributos que representam a quantidade de acesso às ferramentas foram discretizados utilizando o mesmo método anterior, somente acrescentando o valor ``sem acesso'' quando a ferramenta em questão não tiver tido nenhum acesso dos estudantes. Vale destacar que existem diversas formas para o processo de discretização. Além disso, o número de classes e o número de instâncias em cada classe podem variar em função dos objetivos e das características particulares de cada estudo. %[comment] Você deve defender pq a discretização acima foi utilizada
 
-Todo esse procedimento acima foi realizado com o auxílio da ferramenta Pentaho Data Integration. Pentaho é um software de código aberto, desenvolvido em Java. A solução cobre as àreas de Extração, transformação e carga (ETL) dos dados, relatórios, OLAP e mineração de dados \cite{Pentaho:2014}. Facilitando a criação de um modelo capaz de realizar os procedimentos de extração dos registros do banco de dados, seleção de atributos, discretização dos dados e até a geração do arquivo no formado compatível com o software de mineração.
+Todo procedimento acima foi realizado com o auxílio da ferramenta Pentaho Data Integration. Pentaho é um software de código aberto, desenvolvido em Java. A solução cobre as àreas de Extração, transformação e carga (ETL) dos dados, relatórios, OLAP e mineração de dados \cite{Pentaho:2014}, facilitando a criação de um modelo capaz de realizar os procedimentos de extração dos registros do Banco de Dados, seleção de atributos, discretização dos dados e até a geração do arquivo no formado compatível com o software de mineração.
 
 \section{Realizações dos experimentos}
 
 \subsection{Objetivo}
 
-O objetivo deste experimento foi analisar a utilização das ferramentas do AVA Moodle e identificar se existe algum tipo de relação com o desempenho acadêmico dos estudantes. O desempenho de cada estudante é definido como a média das notas obtidas nas disciplinas. O experimento foi realizado, como segue: (1) foram aplicadas técnicas de mineração  de dados educacional (EDM) sobre a base de dados do AVA Moodle, %[comment] Descrever as técnicas
-com o propósito de identificar quais as ferramentas mais usadas e o impacto das mesmas sobre o desempenho dos estudantes nas disciplinas. Para isso foi aplicado algoritmos de classificação, com objetivo de classificar os estudantes de acordo com suas notas e ferramentas usadas; (2) Foi aplicado um questionário aos tutores online a fim de identificar a disponibilidade de tempo dos tutores online, quais ferramentas disponibilizadas pelo AVA Moodle estão sendo efetivamente utilizadas e se existe algum dificuldade no uso de tais ferramentas; e, por fim, (3) Foi realizado um comparativo entre os resultados obtidos com os dois métodos a fim de responder todos os questionamentos da referida pesquisa. %[comment] Não entendi quais são os resultados sólidos
+O objetivo deste experimento é descobrir novos conhecimentos através das técnicas de EDM e aplicação de um questionário aos tutores online. O experimento foi realizado como segue: (1) foram aplicadas técnicas de EDM sobre uma instância de uma base de dados do AVA Moodle, com o propósito de identificar quais as ferramentas mais usadas e o impacto das mesmas sobre o desempenho acadêmico dos estudantes nas disciplinas. O desempenho de cada estudante é definido como a média das notas obtidas nas disciplinas. Para isso foram aplicados algoritmos de classificação, com objetivo de classificar os estudantes de acordo com suas notas e ferramentas usadas; (2) Foi aplicado um questionário aos tutores online a fim de identificar a disponibilidade de tempo dos tutores online, quais ferramentas disponibilizadas pelo AVA Moodle estão sendo efetivamente utilizadas e se existem dificuldades no uso de tais ferramentas; e, por fim, (3) Foi realizado um comparativo entre os resultados obtidos com os dois métodos a fim de responder todos os questionamentos da referida pesquisa. %[comment] Não entendi quais são os resultados sólidos
 
 \subsection{Aplicação e resultados dos algoritmos de mineração}
 
@@ -240,7 +239,7 @@ Para mais detalhes o resultado completo do pesquisa está disponivel no site http
 
 \section{Discussão}%[comment] Tente defender os resultados de forma quantitativa
 %[comment] Descrever melhor o parágrafo abaixo utilizando números apresentados na seção anterior
-Analisando os resultados obtidos após a aplicação das técnicas de mineração de dados e da aplicação do questionário fica claro que os resultados convergem no sentido do pouco uso das ferrametas disponiveis no AVA Moodle. Onde é possivel identificar que as ferramentas mais usadas são envio e recebimento de arquivos (assign) e o fórum.
+Dos resultados obtidos com a aplicação dos experimentos, concluiu-se que há pouco uso das ferrametas disponíveis no AVA Moodle, e que as ferramentas de envio e recebimento de arquivos (assign) e o fórum são as mais usadas no AVA, e a relação entre elas e o desempenho dos estudantes dos estudantes está muito baixa.
 
 O principal aspecto a ser destacado da seção 5.2, é mostrar que o desempenho dos estudantes não são influenciados pelo uso das ferramentas. Podemos notar isso observado os dados do curso de geografia e física que mesmo tenho as melhores médias de notas não tem relação com o uso das ferramentas. Também nessa seção foi possível mostrar que a maioria das ferramentas não estão sendo usadas.
 
